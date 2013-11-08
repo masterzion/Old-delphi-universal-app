@@ -1,0 +1,117 @@
+object frmQueryEditor: TfrmQueryEditor
+  Left = 251
+  Top = 210
+  Width = 696
+  Height = 560
+  VertScrollBar.Range = 118
+  ActiveControl = btnAdd
+  Caption = 'Query Editor'
+  Color = clWhite
+  FormStyle = fsMDIChild
+  Position = poDefault
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 696
+    Height = 442
+    Align = alClient
+    OnMouseMove = Image1MouseMove
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 541
+    Width = 696
+    Height = 19
+    Panels = <>
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 483
+    Width = 696
+    Height = 58
+    Align = alBottom
+    TabOrder = 1
+    object btnAdd: TBitBtn
+      Left = 440
+      Top = 23
+      Width = 75
+      Height = 25
+      Caption = 'Add'
+      TabOrder = 0
+      OnClick = btnAddClick
+      Kind = bkYes
+    end
+    object ComboBoxTabelas: TmzComboBoxClx
+      Left = 8
+      Top = 24
+      Width = 393
+      Height = 19
+      Style = csOwnerDrawFixed
+      ItemHeight = 13
+      TabOrder = 1
+      ValueIndex = -1
+      TextLabel.Width = 66
+      TextLabel.Height = 19
+      TextLabel.Caption = 'Tabelas:'
+      TextLabel.FocusControl = ComboBoxTabelas
+      TextLabel.Font.Color = clNavy
+      TextLabel.Font.Height = 16
+      TextLabel.Font.Name = 'Helvetica'
+      TextLabel.Font.Pitch = fpVariable
+      TextLabel.Font.Style = [fsBold]
+      TextLabel.ParentFont = False
+      TextLabel.Transparent = True
+      TextLabelSpacing = 2
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 442
+    Width = 696
+    Height = 41
+    Align = alBottom
+    TabOrder = 2
+    object btnOk: TBitBtn
+      Left = 176
+      Top = 8
+      Width = 97
+      Height = 25
+      TabOrder = 0
+      OnClick = btnOkClick
+      Kind = bkOK
+    end
+    object BitBtn2: TBitBtn
+      Left = 400
+      Top = 8
+      Width = 97
+      Height = 25
+      Caption = 'Cancelar'
+      TabOrder = 1
+      OnClick = BitBtn2Click
+      Kind = bkCancel
+    end
+  end
+  object PopupMenuTabela: TPopupMenu
+    Left = 264
+    Top = 120
+    object Delete1: TMenuItem
+      Caption = 'Delete'
+      OnClick = Delete1Click
+    end
+  end
+  object Query: TSQLQuery
+    MaxBlobSize = -1
+    Params = <>
+    SQL.Strings = (
+      'show table status')
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 104
+    Top = 216
+  end
+end

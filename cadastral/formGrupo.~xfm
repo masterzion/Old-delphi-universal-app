@@ -1,0 +1,206 @@
+object frmGrupo: TfrmGrupo
+  Left = 312
+  Top = 288
+  Width = 319
+  Height = 372
+  VertScrollBar.Range = 55
+  HorzScrollBar.Range = 164
+  ActiveControl = ListBoxTabela
+  Caption = 'Grupo'
+  Color = clBackground
+  FormStyle = fsMDIChild
+  Icon.Data = {
+    424D360300000000000036000000280000001000000010000000010018000000
+    000000030000120B0000120B00000000000000000000FFFFFFFFFFFF00000000
+    0000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000000000000000000001A96
+    BCFFFFFFFFFFFFFFFFFFFFFFFF1A96BCFFFFFFFFFFFFFFFFFFFFFFFF00000000
+    00000000000000000000000000001A96BC1A96BCFFFFFFFFFFFF1A96BC1A96BC
+    FFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000000000000000000001A96
+    BC1A96BCFFFFFFFFFFFF1A96BC1A96BCFFFFFFFFFFFF000000FFFFFF00000000
+    00000000000000000000000000001A96BC000000FFFFFFFFFFFF1A96BC1A96BC
+    FFFFFFFFFFFF000000FFFFFF0000000000000000000000000000000000001A96
+    BC0000001A96BC1A96BC1A96BC1A96BCFFFFFFFFFFFF000000FFFFFF00000000
+    00000000000000000000000000001A96BC0000001A96BC1A96BC1A96BC1A96BC
+    FFFFFFFFFFFFFFFFFF0000000000000000000000000000000000000000000000
+    001A96BC1A96BC1A96BC1A96BC1A96BCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFF0000000000001A96BCFFFFFF1A96BC1A96BC1A96BC1A96BC1A96BC1A96BC
+    FFFFFF1A96BCFFFFFFFFFFFFFFFFFF000000000000000000000000FFFFFF1A96
+    BC1A96BC1A96BC1A96BC1A96BC1A96BCFFFFFF1A96BCFFFFFFFFFFFFFFFFFF00
+    0000000000000000000000FFFFFF1A96BC1A96BC1A96BC1A96BC1A96BC1A96BC
+    FFFFFF1A96BCFFFFFFFFFFFFFFFFFF0000000000000000000000001A96BC1A96
+    BC1A96BC1A96BC1A96BC1A96BC1A96BC1A96BCFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1A96BC1A96BCFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FF1A96BC1A96BC1A96BC1A96BCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1A96BC1A96BC1A96BC1A96BCFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FF1A96BC1A96BC1A96BC1A96BCFFFFFFFFFFFFFFFFFF}
+  Position = poDefault
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Splitter1: TSplitter
+    Left = 155
+    Top = 55
+    Height = 317
+    Align = alRight
+  end
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 319
+    Height = 55
+    ButtonHeight = 39
+    ButtonWidth = 42
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object ToolButton5: TToolButton
+      Left = 93
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton5'
+      ImageIndex = 1
+    end
+    object btnNovo: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Novo'
+      ImageIndex = 20
+      OnClick = btnNovoClick
+    end
+    object ToolButton8: TToolButton
+      Left = 43
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton8'
+      ImageIndex = 3
+    end
+    object btnExcluir: TToolButton
+      Left = 51
+      Top = 2
+      Height = 39
+      Caption = 'Excluir'
+      ImageIndex = 15
+      OnClick = btnExcluirClick
+    end
+    object btnFechar: TToolButton
+      Left = 101
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnClick = btnFecharClick
+    end
+  end
+  object Panel2: TPanel
+    Left = 158
+    Top = 55
+    Width = 161
+    Height = 317
+    Align = alRight
+    TabOrder = 1
+    object Panel1: TPanel
+      Left = 1
+      Top = 249
+      Width = 159
+      Height = 67
+      Align = alBottom
+      BevelInner = bvLowered
+      TabOrder = 0
+      object bSalvar: TCheckBox
+        Left = 8
+        Top = 8
+        Width = 97
+        Height = 17
+        Caption = 'Salvar'
+        Enabled = False
+        Font.Color = clNavy
+        Font.Height = 13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        OnClick = bSalvarClick
+      end
+      object bLocalizar: TCheckBox
+        Left = 8
+        Top = 24
+        Width = 81
+        Height = 17
+        Caption = 'Localizar'
+        Enabled = False
+        Font.Color = clNavy
+        Font.Height = 13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        OnClick = bLocalizarClick
+      end
+      object bExcluir: TCheckBox
+        Left = 8
+        Top = 40
+        Width = 73
+        Height = 17
+        Caption = 'Excluir'
+        Enabled = False
+        Font.Color = clNavy
+        Font.Height = 13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        OnClick = bExcluirClick
+      end
+    end
+    object ListBoxTabela: TListBox
+      Left = 1
+      Top = 1
+      Width = 159
+      Height = 248
+      Align = alClient
+      TabOrder = 1
+      OnClick = ListBoxTabelaClick
+    end
+  end
+  object ListBoxGrupo: TListBox
+    Left = 0
+    Top = 55
+    Width = 155
+    Height = 317
+    Align = alClient
+    TabOrder = 2
+    OnClick = ListBoxGrupoClick
+  end
+  object SQLDataSet: TSQLDataSet
+    CommandText = 'select * from tbCliente'
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 56
+    Top = 136
+  end
+  object SQLDataSet2: TSQLDataSet
+    CommandText = 'select * from tbCliente'
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 56
+    Top = 192
+  end
+end

@@ -1,0 +1,341 @@
+object frmBtnQueryEditProperties: TfrmBtnQueryEditProperties
+  Left = 368
+  Top = 113
+  Width = 469
+  Height = 567
+  VertScrollBar.Range = 463
+  HorzScrollBar.Range = 217
+  ActiveControl = cmbTable
+  Caption = 'Editor'
+  Color = clBackground
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object PanelTable: TPanel
+    Left = 0
+    Top = 0
+    Width = 469
+    Height = 49
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+    object cmbTable: TmzComboBoxClx
+      Left = 0
+      Top = 30
+      Width = 469
+      Height = 19
+      Style = csOwnerDrawFixed
+      ItemHeight = 13
+      TabOrder = 0
+      OnChange = cmbTableChange
+      OnExit = edtnameExit
+      Align = alBottom
+      ValueIndex = -1
+      TextLabel.Width = 42
+      TextLabel.Height = 19
+      TextLabel.Caption = 'Table'
+      TextLabel.FocusControl = cmbTable
+      TextLabel.Font.Color = clNavy
+      TextLabel.Font.Height = 16
+      TextLabel.Font.Name = 'Helvetica'
+      TextLabel.Font.Pitch = fpVariable
+      TextLabel.Font.Style = [fsBold]
+      TextLabel.ParentFont = False
+      TextLabel.Transparent = True
+      TextLabelSpacing = 2
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 49
+    Width = 469
+    Height = 48
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 1
+    object cmbField: TmzComboBoxClx
+      Left = 0
+      Top = 29
+      Width = 469
+      Height = 19
+      Style = csOwnerDrawFixed
+      ItemHeight = 13
+      TabOrder = 0
+      OnExit = edtnameExit
+      Align = alBottom
+      ValueIndex = -1
+      TextLabel.Width = 37
+      TextLabel.Height = 19
+      TextLabel.Caption = 'Field'
+      TextLabel.FocusControl = cmbField
+      TextLabel.Font.Color = clNavy
+      TextLabel.Font.Height = 16
+      TextLabel.Font.Name = 'Helvetica'
+      TextLabel.Font.Pitch = fpVariable
+      TextLabel.Font.Style = [fsBold]
+      TextLabel.ParentFont = False
+      TextLabel.Transparent = True
+      TextLabelSpacing = 2
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 513
+    Width = 469
+    Height = 54
+    Align = alBottom
+    TabOrder = 2
+    object btnOk: TBitBtn
+      Left = 200
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'OK'
+      Default = True
+      TabOrder = 0
+      OnClick = btnOkClick
+      OnExit = edtnameExit
+      Glyph.Data = {
+        E2010000424DDE01000000000000760000002800000024000000120000000100
+        04000000000068010000120B0000120B00001000000010000000000000000000
+        80000080000000808000800000008000800080800000C0C0C000808080000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+        3333333333333333333333330000333333333333333333333333F33333333333
+        00003333344333333333333333388F3333333333000033334224333333333333
+        338338F3333333330000333422224333333333333833338F3333333300003342
+        222224333333333383333338F3333333000034222A22224333333338F338F333
+        8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+        33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+        0000333333333A222433333333333338F338F33300003333333333A222433333
+        333333338F338F33000033333333333A222433333333333338F338F300003333
+        33333333A222433333333333338F338F00003333333333333A22433333333333
+        3338F38F000033333333333333A223333333333333338F830000333333333333
+        333A333333333333333338330000333333333333333333333333333333333333
+        0000}
+      NumGlyphs = 2
+    end
+  end
+  object Panel7: TPanel
+    Left = 0
+    Top = 97
+    Width = 469
+    Height = 312
+    Align = alTop
+    BevelInner = bvLowered
+    TabOrder = 3
+    object Panel6: TPanel
+      Left = 2
+      Top = 50
+      Width = 465
+      Height = 47
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 0
+      object edtCaption: TNumEditclx
+        Left = 0
+        Top = 26
+        Width = 465
+        Height = 21
+        TabOrder = 0
+        OnExit = edtnameExit
+        MaxValue = 0
+        MinValue = 0
+        Align = alBottom
+        TextLabel.Width = 60
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Caption'
+        TextLabel.FocusControl = edtCaption
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+    end
+    object mzMemoQuerys: TmzMemo
+      Left = 2
+      Top = 168
+      Width = 465
+      Height = 85
+      Align = alBottom
+      ScrollBars = ssBoth
+      TabOrder = 1
+      OnExit = edtnameExit
+      TextLabel.Width = 46
+      TextLabel.Height = 19
+      TextLabel.Caption = 'Query'
+      TextLabel.FocusControl = mzMemoQuerys
+      TextLabel.Font.Color = clNavy
+      TextLabel.Font.Height = 16
+      TextLabel.Font.Name = 'Helvetica'
+      TextLabel.Font.Pitch = fpVariable
+      TextLabel.Font.Style = [fsBold]
+      TextLabel.ParentFont = False
+      TextLabel.Transparent = True
+      TextLabelSpacing = 2
+    end
+    object Panel4: TPanel
+      Left = 2
+      Top = 2
+      Width = 465
+      Height = 48
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 3
+      object edtname: TNumEditclx
+        Left = 0
+        Top = 27
+        Width = 465
+        Height = 21
+        TabOrder = 0
+        OnExit = edtnameExit
+        MaxValue = 0
+        MinValue = 0
+        Align = alBottom
+        TextLabel.Width = 44
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Name'
+        TextLabel.FocusControl = edtname
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+    end
+    object Panel2: TPanel
+      Left = 2
+      Top = 253
+      Width = 465
+      Height = 57
+      Align = alBottom
+      BevelInner = bvLowered
+      TabOrder = 4
+      object chkShowCaption: TCheckBox
+        Left = 304
+        Top = 14
+        Width = 108
+        Height = 30
+        Caption = 'ShowCaption'
+        Checked = True
+        State = cbChecked
+        TabOrder = 0
+        OnExit = edtnameExit
+      end
+      object chkReadOnly: TCheckBox
+        Left = 40
+        Top = 16
+        Width = 100
+        Height = 30
+        Caption = 'ReadOnly'
+        TabOrder = 1
+        OnExit = edtnameExit
+      end
+      object chkNullData: TCheckBox
+        Left = 160
+        Top = 16
+        Width = 100
+        Height = 30
+        Caption = 'NullData'
+        TabOrder = 2
+        OnExit = edtnameExit
+      end
+    end
+    object Panel8: TPanel
+      Left = 2
+      Top = 97
+      Width = 465
+      Height = 47
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 5
+      object edtMask: TNumEditclx
+        Left = 0
+        Top = 26
+        Width = 465
+        Height = 21
+        TabOrder = 0
+        OnExit = edtnameExit
+        MaxValue = 0
+        MinValue = 0
+        Align = alBottom
+        TextLabel.Width = 40
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Mask'
+        TextLabel.FocusControl = edtMask
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+    end
+  end
+  object ListBoxComps: TListBox
+    Left = 0
+    Top = 409
+    Width = 217
+    Height = 104
+    Align = alLeft
+    TabOrder = 4
+    OnExit = edtnameExit
+  end
+  object Panel5: TPanel
+    Left = 217
+    Top = 409
+    Width = 252
+    Height = 104
+    Align = alClient
+    BevelInner = bvLowered
+    TabOrder = 5
+    object cmbComps: TComboBox
+      Left = 40
+      Top = 16
+      Width = 201
+      Height = 19
+      Style = csOwnerDrawFixed
+      ItemHeight = 13
+      TabOrder = 0
+      OnChange = cmbCompsChange
+    end
+    object cmbProps: TComboBox
+      Left = 40
+      Top = 40
+      Width = 201
+      Height = 19
+      Style = csOwnerDrawFixed
+      ItemHeight = 13
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 8
+      Top = 16
+      Width = 25
+      Height = 25
+      Caption = '<'
+      TabOrder = 2
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 8
+      Top = 72
+      Width = 25
+      Height = 25
+      Caption = '>'
+      TabOrder = 3
+      OnClick = Button2Click
+    end
+  end
+end

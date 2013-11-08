@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Using report parameters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<h2>Advanced report design</h2>
+<h3>Using report parameters</h3>
+<h4></h4>
+<h4>Parameter features</h4>
+<p>Report parameters is a powerful feature, here is a list of samples you can 
+  do with parameters</p>
+<ul>
+  <li> Allow the user to change words or sentences of the report.</li>
+  <li>Set initial values of group sums, etc, place the parameter name in any expression</li>
+  <li>Assign them to querys to alter the result set (parametrized or <a href="linkedquerys.html">linked 
+    querys</a>)</li>
+  <li>Replace some text in the query with a provided text (text substitution)</li>
+  <li>Print them, or alter them while executing the report, you can use the parameter 
+    in any <a href="exevaluator.html">expression</a></li>
+  <li>Assign parameters using <a href="serverclient.html">report client application</a></li>
+  <li>Assign parameters using the <a href="webserveroperations.html">web report 
+    server</a> and any html client</li>
+  <li>The parameters can contain expressions evaluated before or after opening 
+    report datasets.</li>
+</ul>
+<p>You can define the parameters, and also preview how the parameters will show 
+  to the user.</p>
+<h4>Parameter definition</h4>
+<p>Parameter definition window allows to add, modify and delete parameters, you 
+  can assign parameters to datasets (parametrized querys). The parameters can 
+  be visible or not visible to the user. You can assign a single parameter to 
+  multiple datasets.</p>
+<p>This is a sample of report parameters:</p>
+<p><img src="images/paramdef.jpg" width="471" height="386"></p>
+<p>The data definition properties for this sample, see that parameters are preceded 
+  by the : symbol.</p>
+<p><img src="images/paramdef2.jpg" width="547" height="497"></p>
+<p>The user parameters window is called in preview window when user click the 
+  parameters button:</p>
+<p><img src="images/paramdef3.jpg" width="591" height="163"></p>
+<p><b>Parameter types</b></p>
+<table width="100%" border="1">
+  <tr> 
+    <td bgcolor="#FFFFCC"><b>Type</b></td>
+    <td bgcolor="#FFFFCC"><b>Description</b></td>
+  </tr>
+  <tr> 
+    <td>String, Integer, Float, Date, Time, DateTime</td>
+    <td>Basic types, they contain fixed values</td>
+  </tr>
+  <tr> 
+    <td>Boolean</td>
+    <td>False or True values</td>
+  </tr>
+  <tr> 
+    <td>Expres.Bef.Open</td>
+    <td>Contains a expression evaluated before any dataset is open, so the result 
+      can be assigned to a parametrized query for example</td>
+  </tr>
+  <tr> 
+    <td>Expres.Aft.Open</td>
+    <td>Contains a expression evaluated after opening all datasets, so it can 
+      contain dataset fields</td>
+  </tr>
+  <tr> 
+    <td>String Substi.</td>
+    <td>You use this parameter type assigning it to at least one dataset, you 
+      must provide a search string, the engine will search in the sql sentence 
+      for that string and will replace it with the value of the parameter. This 
+      can be used to pass the entire sql sentence as a parameter or only the WHERE 
+      clause for example.</td>
+  </tr>
+  <tr> 
+    <td>Value list</td>
+    <td>You provide two list, one for value captions, and other for real values, 
+      the engine will show to the user a combo box to select from the caption 
+      list, and will assign the corresponding value from list of values.</td>
+  </tr>
+</table>
+<p><b>How to modify parameter values at runtime</b></p>
+<p>Report parameters are added to the evaluator as variables when the report begin, 
+  so if you want to modify the values while the report is executing you must alter 
+  the variable value using a expression like:</p>
+<p>paramname:='NewStringValue'</p>
+<p>From Delphi/Kylix/Builder you can evaluate this expression:</p>
+<p>CLXReport1.Report.Evaluator.EvaluateText('paramname:=''NewStringValue''');. 
+</p>
+<p><b>Using parameters from Delphi/Builder/Kylix/ActiveX</b></p>
+<p>You can call parameter window from your application with <b>the method ShowParam</b>s:</p>
+<p>VCL/CLX Components:</p>
+<p><code>if CLXReport1.ShowParams then</code></p>
+<p><code> CLXReport1.Execute</code></p>
+<p>You can modify report parameters in runtime in your application.</p>
+<p>VCL/CLX Components:</p>
+<p><code>CLXReport1.Report.Params.ParamByName('CUSTOMERINI').Value:=2;</code></p>
+<p>ActiveX:</p>
+<p><code>ReportManX.ParamByName('CUSTOMERINI').Value=2</code></p>
+<p><code>ReportManX.Report.Params.Items[0].Value=2;</code></p>
+<p><code>ReportManX.Report.Params.Items.Count;</code></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

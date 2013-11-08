@@ -1,0 +1,266 @@
+object frmConfigura: TfrmConfigura
+  Left = 321
+  Top = 293
+  Width = 401
+  Height = 254
+  VertScrollBar.Range = 49
+  ActiveControl = PageControl1
+  BorderStyle = fbsDialog
+  Caption = 'Configura'#231#227'o'
+  Color = clBackground
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 401
+    Height = 49
+    ButtonHeight = 39
+    ButtonWidth = 42
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnSalvar: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Salvar'
+      ImageIndex = 11
+      OnClick = btnSalvarClick
+    end
+    object ToolButton8: TToolButton
+      Left = 43
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton8'
+      ImageIndex = 3
+    end
+    object btnFechar: TToolButton
+      Left = 51
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 8
+      OnClick = btnFecharClick
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 49
+    Width = 401
+    Height = 205
+    ActivePage = TabDB
+    Align = alClient
+    Style = tsFlatButtons
+    TabOrder = 1
+    object TabDB: TTabSheet
+      Caption = 'Banco de dados'
+      object cmbDriverName: TmzComboBoxClx
+        Left = 24
+        Top = 32
+        Width = 140
+        Height = 19
+        Style = csOwnerDrawFixed
+        ItemHeight = 13
+        Items.Strings = (
+          'MySQL'
+          'Interbase'
+          'Oracle')
+        TabOrder = 0
+        ValueIndex = -1
+        TextLabel.Width = 46
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Driver'
+        TextLabel.FocusControl = cmbDriverName
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+      end
+      object edtHost: TNumEditclx
+        Left = 24
+        Top = 88
+        Width = 137
+        Height = 21
+        TabOrder = 2
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 36
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Host'
+        TextLabel.FocusControl = edtHost
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object edtDataBase: TNumEditclx
+        Left = 168
+        Top = 88
+        Width = 145
+        Height = 21
+        TabOrder = 4
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 72
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Database'
+        TextLabel.FocusControl = edtDataBase
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object edtUserName: TNumEditclx
+        Left = 24
+        Top = 136
+        Width = 137
+        Height = 21
+        TabOrder = 6
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 36
+        TextLabel.Height = 19
+        TextLabel.Caption = 'User'
+        TextLabel.FocusControl = edtUserName
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object edtPass: TNumEditclx
+        Left = 168
+        Top = 136
+        Width = 145
+        Height = 21
+        Color = clNone
+        TabOrder = 8
+        MaxValue = 0
+        MinValue = 0
+        EchoMode = emPassword
+        TextLabel.Width = 77
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Password'
+        TextLabel.FocusControl = edtPass
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+    end
+    object TabSheetAparencia: TTabSheet
+      Caption = 'Aparencia'
+      ImageIndex = 1
+      object cmbEstilo: TmzComboBoxClx
+        Left = 24
+        Top = 32
+        Width = 345
+        Height = 19
+        Style = csOwnerDrawFixed
+        ItemHeight = 13
+        TabOrder = 0
+        ValueIndex = -1
+        TextLabel.Width = 43
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Estilo'
+        TextLabel.FocusControl = cmbEstilo
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+      end
+      object cmbIdioma: TmzComboBoxClx
+        Left = 24
+        Top = 80
+        Width = 345
+        Height = 19
+        Style = csOwnerDrawFixed
+        ItemHeight = 13
+        Items.Strings = (
+          'Portugues')
+        TabOrder = 2
+        ValueIndex = -1
+        TextLabel.Width = 51
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Idioma'
+        TextLabel.FocusControl = cmbIdioma
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+      end
+      object fdWallPaper: TmzFileEdit
+        Left = 24
+        Top = 128
+        Width = 345
+        Height = 21
+        Color = clNone
+        TabOrder = 4
+        ButtonImage.Data = {
+          FA000000424DE800000000000000760000002800000010000000100000000100
+          0400000000008000000000000000000000000000000000000000000000000000
+          8000008000000080800080000000800080008080000080808000C0C0C0000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDDDDD
+          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD1333333333
+          DDDDDD33B88B8BB83DDDDD777BB8B88B7DDDDD3877737BB8B3DDDD3887737333
+          31DDDD7B8B88B7830DDDDD38B88BF8B81DDDDD7B8BB73773DDDDDD17371DDDDD
+          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD}
+        TextLabel.Width = 60
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Caption'
+        TextLabel.FocusControl = fdWallPaper
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+        OpenDialog = fdWallPaper.IntenalOpenDialog
+      end
+    end
+  end
+end

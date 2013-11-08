@@ -1,0 +1,111 @@
+object frmCalendario: TfrmCalendario
+  Left = 365
+  Top = 286
+  Width = 297
+  Height = 270
+  VertScrollBar.Range = 53
+  ActiveControl = mzCalendar
+  Color = clBackground
+  Constraints.MinHeight = 270
+  Constraints.MinWidth = 297
+  FormStyle = fsMDIChild
+  Icon.Data = {
+    424D420100000000000076000000280000001100000011000000010004000000
+    0000CC000000120B0000120B00001000000010000000000000000000BF0000BF
+    000000BFBF00BF000000BF00BF00BFBF0000C0C0C000808080000000FF0000FF
+    000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDDDDDDDDDD000
+    0000DDDDD00000000000D0000000DDDDD0F7F7F7F7F0D0000000D000007CCCCC
+    CC70D0000000D0F7F0F7F7F7F7F0D0000000D07CC07F711F7F70D0000000D0F7
+    F0F7F117F7F0D0000000D071107F7F117F70D0000000D0F1F0F7F7F117F0D000
+    0000D071107F11111F70D0000000D0F1F0F7F7F7F7F0D0000000D07110000000
+    0000D0000000D0F7F0CCCCCCCCC0D0000000D000000000000000D0000000D0CC
+    CCCCCC0DDDDDD0000000D0000000000DDDDDD0000000DDDDDDDDDDDDDDDDD000
+    0000}
+  Position = poMainFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 297
+    Height = 53
+    ButtonHeight = 39
+    ButtonWidth = 42
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnFechar: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnClick = btnFecharClick
+    end
+  end
+  object mzCalendar: TmzCalendar
+    Left = 0
+    Top = 53
+    Width = 299
+    Height = 218
+    Cursor = crDefault
+    Align = alClient
+    Date = 37993.000000000000000000
+    DayNamesFont.Color = clBlack
+    DayNamesFont.Height = 16
+    DayNamesFont.Name = 'Helvetica'
+    DayNamesFont.Pitch = fpVariable
+    DayNamesFont.Style = [fsBold]
+    TodayFont.Color = clBlue
+    TodayFont.Height = 16
+    TodayFont.Name = 'Helvetica'
+    TodayFont.Pitch = fpVariable
+    TodayFont.Style = []
+    TodayFont.Weight = 40
+    MonthDayFont.Color = clBlack
+    MonthDayFont.Height = 16
+    MonthDayFont.Name = 'Helvetica'
+    MonthDayFont.Pitch = fpVariable
+    MonthDayFont.Style = []
+    MonthDayFont.Weight = 40
+    OtherDayFont.Color = clSilver
+    OtherDayFont.Height = 13
+    OtherDayFont.Name = 'Helvetica'
+    OtherDayFont.Pitch = fpVariable
+    OtherDayFont.Style = []
+    OtherDayFont.Weight = 40
+    CalendarColor = clWhite
+    HeaderColor = 10944512
+    MonthFont.Color = clWhite
+    MonthFont.Height = 16
+    MonthFont.Name = 'Helvetica'
+    MonthFont.Pitch = fpVariable
+    MonthFont.Style = [fsBold]
+    YearFont.Color = clWhite
+    YearFont.Height = 16
+    YearFont.Name = 'Helvetica'
+    YearFont.Pitch = fpVariable
+    YearFont.Style = [fsBold]
+    TodayLabelFont.Color = clBlack
+    TodayLabelFont.Height = 16
+    TodayLabelFont.Name = 'Helvetica'
+    TodayLabelFont.Pitch = fpVariable
+    TodayLabelFont.Style = [fsBold]
+    TodayLabelColor = clWhite
+    TodayLabelCaption = 'Hoje:'
+    TodayLabelAlignment = taCenter
+    Enabled = True
+    GraphicToday = True
+    OnDblClick = mzCalendarDblClick
+    SpecialDaysColor = clRed
+    SpecialDays = []
+    TabStop = True
+    TabOrder = 1
+  end
+end

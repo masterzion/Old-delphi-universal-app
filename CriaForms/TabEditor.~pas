@@ -1,0 +1,35 @@
+unit TabEditor;
+
+interface
+
+uses
+  SysUtils, Types, Classes, Variants, QTypes, QGraphics, QControls, QForms,
+  QDialogs, QStdCtrls, QExtCtrls, QButtons;
+
+type
+  TfrmTabEditor = class(TForm)
+    Panel1: TPanel;
+    ListBox: TListBox;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTabEditor: TfrmTabEditor;
+
+implementation
+
+{$R *.xfm}
+
+procedure TfrmTabEditor.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+ Action := caFree;
+end;
+
+end.

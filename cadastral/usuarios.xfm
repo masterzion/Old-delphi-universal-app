@@ -1,0 +1,76 @@
+object tbUsuarios: TtbUsuarios
+  Left = 493
+  Top = 148
+  Width = 489
+  Height = 539
+  HorzScrollBar.Range = 189
+  VertScrollBar.Range = 57
+  ActiveControl = ListBox1
+  AutoScroll = False
+  Caption = 'Usuarios'
+  Color = clBackground
+  FormStyle = fsMDIChild
+  Position = poDefault
+  Visible = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 75
+  TextHeight = 17
+  TextWidth = 7
+  object ToolBar1: TToolBar
+    Left = 0
+    Top = 0
+    Width = 489
+    Height = 57
+    ButtonHeight = 43
+    ButtonWidth = 71
+    Caption = 'ToolBar1'
+    HotImages = frmPrincipal.ImageList1
+    Images = frmPrincipal.ImageList1
+    ParentShowHint = False
+    ShowCaptions = True
+    ShowHint = True
+    TabOrder = 0
+    object btnAdicionar: TToolButton
+      Left = 1
+      Top = 4
+      Height = 43
+      Caption = 'Adicionar'
+      ImageIndex = 34
+      OnClick = btnAdicionarClick
+    end
+    object btnRemove: TToolButton
+      Left = 72
+      Top = 4
+      Height = 43
+      Caption = 'Remover'
+      ImageIndex = 33
+      OnClick = btnRemoveClick
+    end
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Top = 57
+    Width = 240
+    Height = 482
+    Align = alClient
+    TabOrder = 1
+    OnClick = ListBox1Click
+    OnDblClick = ListBox1DblClick
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 240
+    Top = 57
+    Width = 249
+    Height = 482
+    Align = alRight
+    TabOrder = 2
+  end
+  object Query: TSQLQuery
+    NoMetadata = True
+    SQLConnection = frmPrincipal.SQLConnection1
+    Params = <>
+    Left = 80
+    Top = 104
+  end
+end

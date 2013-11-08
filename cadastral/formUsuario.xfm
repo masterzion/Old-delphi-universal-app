@@ -1,0 +1,367 @@
+object frmUsuario: TfrmUsuario
+  Left = 262
+  Top = 144
+  Width = 299
+  Height = 333
+  VertScrollBar.Range = 49
+  ActiveControl = PageControl1
+  Caption = 'Cadastro de Usuarios'
+  Color = clBackground
+  Constraints.MinHeight = 333
+  Constraints.MinWidth = 299
+  FormStyle = fsMDIChild
+  Icon.Data = {
+    424D360300000000000036000000280000001000000010000000010018000000
+    000000030000120B0000120B00000000000000000000FFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFF
+    FFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFF
+    FF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000000
+    00000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFF000000000000000000000000000000000000FFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000000
+    00000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+    0000FFFFFF000000000000000000000000000000000000FFFFFF000000FFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF0000000000000000000000
+    00000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+    0000FFFFFF000000000000000000000000000000000000FFFFFF000000FFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000000000000
+    00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000
+    00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000
+    00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+  Position = poDefault
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 299
+    Height = 49
+    ButtonHeight = 39
+    ButtonWidth = 51
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnLocalizar: TToolButton
+      Left = 170
+      Top = 2
+      Height = 39
+      Caption = 'Localizar'
+      ImageIndex = 4
+      OnClick = btnLocalizarClick
+    end
+    object ToolButton5: TToolButton
+      Left = 221
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton5'
+      ImageIndex = 1
+    end
+    object btnNovo: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Novo'
+      ImageIndex = 20
+      OnClick = btnNovoClick
+    end
+    object btnSalvar: TToolButton
+      Left = 52
+      Top = 2
+      Height = 39
+      Caption = 'salvar'
+      ImageIndex = 19
+      OnClick = btnSalvarClick
+    end
+    object ToolButton8: TToolButton
+      Left = 103
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton8'
+      ImageIndex = 3
+    end
+    object btnExcluir: TToolButton
+      Left = 111
+      Top = 2
+      Height = 39
+      Caption = 'Excluir'
+      ImageIndex = 15
+      OnClick = btnExcluirClick
+    end
+    object ToolButton10: TToolButton
+      Left = 162
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton10'
+      ImageIndex = 4
+    end
+    object btnFechar: TToolButton
+      Left = 229
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnClick = btnFecharClick
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 49
+    Width = 299
+    Height = 284
+    ActivePage = TabSheetDetalhes
+    Align = alClient
+    Style = tsFlatButtons
+    TabOrder = 1
+    object TabSheetDetalhes: TTabSheet
+      Caption = 'Detalhes'
+      object edtNome: TNumEditclx
+        Left = 8
+        Top = 64
+        Width = 273
+        Height = 21
+        TabOrder = 0
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 60
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Usuario'
+        TextLabel.FocusControl = edtNome
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object edtSenha: TNumEditclx
+        Left = 8
+        Top = 120
+        Width = 273
+        Height = 21
+        TabOrder = 2
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 140
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Senha Tempor'#225'ria'
+        TextLabel.FocusControl = edtSenha
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object cmbGrupo: TmzDBComboBoxClx
+        Left = 8
+        Top = 224
+        Width = 217
+        Height = 19
+        Style = csOwnerDrawFixed
+        ItemHeight = 13
+        TabOrder = 4
+        ValueIndex = -1
+        TextLabel.Width = 48
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Grupo'
+        TextLabel.FocusControl = cmbGrupo
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        Active = False
+        SQLQuery.Strings = (
+          'select nIDGrupo, sNomeGrupo'
+          'from tbGrupo')
+        SQLConnection = frmPrincipal.SQLConnection1
+      end
+      object chkExibir: TCheckBox
+        Left = 232
+        Top = 216
+        Width = 57
+        Height = 30
+        Caption = 'Exibir'
+        TabOrder = 6
+      end
+      object edtCodigo: TNumEditclx
+        Left = 8
+        Top = 24
+        Width = 89
+        Height = 21
+        Color = clNone
+        ReadOnly = True
+        TabOrder = 7
+        MaxValue = 0
+        MinValue = 0
+        TextLabel.Width = 56
+        TextLabel.Height = 19
+        TextLabel.Caption = 'C'#243'digo'
+        TextLabel.FocusControl = edtCodigo
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Helvetica'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+      object edtValidade: TNumEditclx
+        Left = 8
+        Top = 176
+        Width = 273
+        Height = 21
+        Color = clNone
+        TabOrder = 9
+        Text = '0'
+        MaxValue = 0
+        MinValue = 0
+        NumberType = mzInteger
+        TextLabel.Width = 110
+        TextLabel.Height = 19
+        TextLabel.Caption = 'Validade(Dias)'
+        TextLabel.FocusControl = edtValidade
+        TextLabel.Font.Color = clNavy
+        TextLabel.Font.Height = 16
+        TextLabel.Font.Name = 'Arial'
+        TextLabel.Font.Pitch = fpVariable
+        TextLabel.Font.Style = [fsBold]
+        TextLabel.ParentFont = False
+        TextLabel.Transparent = True
+        TextLabelSpacing = 2
+        NullData = True
+      end
+    end
+    object TabSheetBrowser: TTabSheet
+      Caption = 'Browser'
+      ImageIndex = 1
+      object Splitter1: TSplitter
+        Left = 0
+        Top = 161
+        Width = 291
+        Height = 5
+        Cursor = crVSplit
+        Align = alTop
+      end
+      object PanelBrowser: TPanel
+        Left = 0
+        Top = 166
+        Width = 291
+        Height = 84
+        Align = alClient
+        BevelInner = bvLowered
+        TabOrder = 0
+        object UsuarioBusca: TNumEditclx
+          Left = 8
+          Top = 32
+          Width = 265
+          Height = 21
+          TabOrder = 0
+          MaxValue = 0
+          MinValue = 0
+          TextLabel.Width = 60
+          TextLabel.Height = 19
+          TextLabel.Caption = 'Usuario'
+          TextLabel.FocusControl = UsuarioBusca
+          TextLabel.Font.Color = clNavy
+          TextLabel.Font.Height = 16
+          TextLabel.Font.Name = 'Helvetica'
+          TextLabel.Font.Pitch = fpVariable
+          TextLabel.Font.Style = [fsBold]
+          TextLabel.ParentFont = False
+          TextLabel.Transparent = True
+          TextLabelSpacing = 2
+          NullData = True
+        end
+      end
+      object DBGridBusca: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 291
+        Height = 161
+        Align = alTop
+        DataSource = DataSource1
+        TabOrder = 1
+        TitleFont.Color = clBlack
+        TitleFont.Height = 11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Style = []
+        TitleFont.Weight = 40
+        OnDblClick = DBGridBuscaDblClick
+        OnKeyDown = DBGridBuscaKeyDown
+      end
+    end
+  end
+  object Query: TSQLQuery
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 40
+    Top = 56
+  end
+  object SQLDataSet1: TSQLDataSet
+    CommandText = 'select sNomeUsuario as Usuario  from tbUsuario '
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 272
+    Top = 88
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 272
+    Top = 56
+  end
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'DataSetProvider1'
+    Left = 184
+    Top = 32
+  end
+  object DataSetProvider1: TDataSetProvider
+    DataSet = SQLDataSet1
+    Left = 184
+    Top = 64
+  end
+  object QueryAux: TSQLQuery
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 112
+    Top = 40
+  end
+end

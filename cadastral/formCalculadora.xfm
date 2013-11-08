@@ -1,0 +1,84 @@
+object frmCalculadora: TfrmCalculadora
+  Left = 340
+  Top = 256
+  Width = 389
+  Height = 270
+  VertScrollBar.Range = 53
+  HorzScrollBar.Range = 145
+  ActiveControl = mzCalc
+  Caption = 'Calculadora'
+  Color = clBackground
+  Constraints.MinHeight = 270
+  Constraints.MinWidth = 145
+  FormStyle = fsMDIChild
+  Position = poDefault
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 389
+    Height = 53
+    ButtonHeight = 39
+    ButtonWidth = 42
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnFechar: TToolButton
+      Left = 51
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnClick = btnFecharClick
+    end
+    object btnLimpar: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Limpar'
+      ImageIndex = 15
+      OnClick = btnLimparClick
+    end
+    object ToolButton1: TToolButton
+      Left = 43
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton1'
+      ImageIndex = 25
+    end
+  end
+  object ListBox: TListBox
+    Left = 145
+    Top = 53
+    Width = 244
+    Height = 217
+    Align = alClient
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 53
+    Width = 145
+    Height = 217
+    Align = alLeft
+    BevelOuter = bvNone
+    TabOrder = 2
+    object mzCalc: TmzCalc
+      Left = 0
+      Top = 5
+      Width = 137
+      Height = 210
+      Value = '0'
+      OnEndCalc = mzCalcEndCalc
+    end
+  end
+end

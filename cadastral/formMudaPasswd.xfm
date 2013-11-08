@@ -1,0 +1,113 @@
+object frmAlteraSenha: TfrmAlteraSenha
+  Left = 426
+  Top = 382
+  Width = 217
+  Height = 175
+  VertScrollBar.Range = 149
+  HorzScrollBar.Range = 193
+  ActiveControl = sSenha
+  BorderStyle = fbsDialog
+  Caption = 'Mudar Senha'
+  Color = clBackground
+  FormStyle = fsMDIChild
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 102
+  TextHeight = 13
+  TextWidth = 6
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 217
+    Height = 49
+    ButtonHeight = 39
+    ButtonWidth = 42
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnSalvar: TToolButton
+      Left = 1
+      Top = 2
+      Height = 39
+      Caption = 'Salvar'
+      ImageIndex = 19
+      OnClick = btnSalvarClick
+    end
+    object ToolButton8: TToolButton
+      Left = 43
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton8'
+      ImageIndex = 3
+    end
+    object btnFechar: TToolButton
+      Left = 51
+      Top = 2
+      Height = 39
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnClick = btnFecharClick
+    end
+  end
+  object sSenha: TNumEditclx
+    Left = 16
+    Top = 80
+    Width = 177
+    Height = 21
+    Color = clNone
+    TabOrder = 1
+    MaxValue = 0
+    MinValue = 0
+    EchoMode = emPassword
+    TextLabel.Width = 49
+    TextLabel.Height = 19
+    TextLabel.Caption = 'Senha'
+    TextLabel.FocusControl = sSenha
+    TextLabel.Font.Color = clNavy
+    TextLabel.Font.Height = 16
+    TextLabel.Font.Name = 'Helvetica'
+    TextLabel.Font.Pitch = fpVariable
+    TextLabel.Font.Style = [fsBold]
+    TextLabel.ParentFont = False
+    TextLabel.Transparent = True
+    TextLabelSpacing = 2
+    NullData = True
+  end
+  object sSenha2: TNumEditclx
+    Left = 16
+    Top = 128
+    Width = 177
+    Height = 21
+    Color = clNone
+    TabOrder = 3
+    OnKeyPress = sSenha2KeyPress
+    MaxValue = 0
+    MinValue = 0
+    EchoMode = emPassword
+    TextLabel.Width = 127
+    TextLabel.Height = 19
+    TextLabel.Caption = 'Confirmar senha'
+    TextLabel.FocusControl = sSenha2
+    TextLabel.Font.Color = clNavy
+    TextLabel.Font.Height = 16
+    TextLabel.Font.Name = 'Helvetica'
+    TextLabel.Font.Pitch = fpVariable
+    TextLabel.Font.Style = [fsBold]
+    TextLabel.ParentFont = False
+    TextLabel.Transparent = True
+    TextLabelSpacing = 2
+    NullData = True
+  end
+  object Query: TSQLQuery
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 232
+    Top = 56
+  end
+end

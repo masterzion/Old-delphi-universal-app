@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 296
+  Top = 374
+  Width = 530
+  Height = 202
+  HorzScrollBar.Range = 475
+  VertScrollBar.Range = 89
+  Caption = 'Form1'
+  Color = clBackground
+  PixelsPerInch = 102
+  TextHeight = 17
+  TextWidth = 7
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 289
+    Height = 202
+    Align = alLeft
+    Lines.Strings = (
+      'unit Unit1;'
+      ''
+      'interface'
+      ''
+      'uses'
+      
+        '  SysUtils, Types, Classes, Variants, QTypes, QGraphics, QContro' +
+        'ls, QForms,'
+      '  QDialogs, QStdCtrls, DCPcrypt2, DCPrc4, DCPsha1, DCPmd5;'
+      ''
+      'var'
+      '  senha :string = '#39'teste'#39';'
+      ''
+      'type'
+      '  TForm1 = class(TForm)'
+      '    Memo1: TMemo;'
+      '    Button1: TButton;'
+      '    DCP_RC4: TDCP_rc4;'
+      '    Button2: TButton;'
+      '    procedure Button1Click(Sender: TObject);'
+      '    procedure Button2Click(Sender: TObject);'
+      '  private'
+      '    { Private declarations }'
+      '  public'
+      '    { Public declarations }'
+      '  end;'
+      ''
+      'var'
+      '  Form1: TForm1;'
+      ''
+      'implementation'
+      ''
+      '{$R *.xfm}'
+      ''
+      'procedure TForm1.Button1Click(Sender: TObject);'
+      'begin'
+      '  DCP_RC4.InitStr(senha, TDCP_md5);'
+      '  Memo1.Lines.Text := DCP_RC4.EncryptString(Memo1.Lines.Text);'
+      '  DCP_RC4.Burn;'
+      'end;'
+      ''
+      'procedure TForm1.Button2Click(Sender: TObject);'
+      'begin'
+      '  DCP_RC4.InitStr(senha, TDCP_md5);'
+      '  Memo1.Lines.Text := DCP_RC4.DecryptString(Memo1.Lines.Text);'
+      '  DCP_RC4.Burn;'
+      'end;'
+      ''
+      'end.')
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 400
+    Top = 32
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 400
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object DCP_RC4: TDCP_rc4
+    Id = 19
+    Algorithm = 'RC4'
+    MaxKeySize = 2048
+    Left = 344
+    Top = 40
+  end
+end

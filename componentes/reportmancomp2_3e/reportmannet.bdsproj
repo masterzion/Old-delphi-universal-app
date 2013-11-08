@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">DelphiDotNet.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{0F6FBAB5-F70A-449D-A6B8-F0B8BD2BD050}</Option>
+		</Option>
+	</PersonalityInfo>
+	<DelphiDotNet.Personality>
+		<Source>
+			<Source Name="MainSource">reportmannet.dpk</Source>
+		</Source>
+		<FileVersion>
+			<FileVersion Name="Version">7.0</FileVersion>
+		</FileVersion>
+		<Compiler>
+			<Compiler Name="A">0</Compiler>
+			<Compiler Name="B">0</Compiler>
+			<Compiler Name="C">1</Compiler>
+			<Compiler Name="D">1</Compiler>
+			<Compiler Name="E">0</Compiler>
+			<Compiler Name="F">0</Compiler>
+			<Compiler Name="G">1</Compiler>
+			<Compiler Name="H">1</Compiler>
+			<Compiler Name="I">1</Compiler>
+			<Compiler Name="J">0</Compiler>
+			<Compiler Name="K">0</Compiler>
+			<Compiler Name="L">1</Compiler>
+			<Compiler Name="M">0</Compiler>
+			<Compiler Name="N">1</Compiler>
+			<Compiler Name="O">0</Compiler>
+			<Compiler Name="P">1</Compiler>
+			<Compiler Name="Q">1</Compiler>
+			<Compiler Name="R">1</Compiler>
+			<Compiler Name="S">0</Compiler>
+			<Compiler Name="T">0</Compiler>
+			<Compiler Name="U">0</Compiler>
+			<Compiler Name="V">1</Compiler>
+			<Compiler Name="W">0</Compiler>
+			<Compiler Name="X">1</Compiler>
+			<Compiler Name="Y">1</Compiler>
+			<Compiler Name="Z">1</Compiler>
+			<Compiler Name="ShowHints">True</Compiler>
+			<Compiler Name="ShowWarnings">True</Compiler>
+			<Compiler Name="UnitAliases">WinTypes=Borland.Vcl.Windows;WinProcs=Borland.Vcl.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Compiler>
+			<Compiler Name="NamespacePrefix"></Compiler>
+			<Compiler Name="GenerateDocumentation">False</Compiler>
+			<Compiler Name="DefaultNamespace"></Compiler>
+			<Compiler Name="SymbolDeprecated">True</Compiler>
+			<Compiler Name="SymbolLibrary">True</Compiler>
+			<Compiler Name="SymbolPlatform">True</Compiler>
+			<Compiler Name="SymbolExperimental">True</Compiler>
+			<Compiler Name="UnitLibrary">True</Compiler>
+			<Compiler Name="UnitPlatform">True</Compiler>
+			<Compiler Name="UnitDeprecated">True</Compiler>
+			<Compiler Name="UnitExperimental">True</Compiler>
+			<Compiler Name="HResultCompat">True</Compiler>
+			<Compiler Name="HidingMember">True</Compiler>
+			<Compiler Name="HiddenVirtual">True</Compiler>
+			<Compiler Name="Garbage">True</Compiler>
+			<Compiler Name="BoundsError">True</Compiler>
+			<Compiler Name="ZeroNilCompat">True</Compiler>
+			<Compiler Name="StringConstTruncated">True</Compiler>
+			<Compiler Name="ForLoopVarVarPar">True</Compiler>
+			<Compiler Name="TypedConstVarPar">True</Compiler>
+			<Compiler Name="AsgToTypedConst">True</Compiler>
+			<Compiler Name="CaseLabelRange">True</Compiler>
+			<Compiler Name="ForVariable">True</Compiler>
+			<Compiler Name="ConstructingAbstract">True</Compiler>
+			<Compiler Name="ComparisonFalse">True</Compiler>
+			<Compiler Name="ComparisonTrue">True</Compiler>
+			<Compiler Name="ComparingSignedUnsigned">True</Compiler>
+			<Compiler Name="CombiningSignedUnsigned">True</Compiler>
+			<Compiler Name="UnsupportedConstruct">True</Compiler>
+			<Compiler Name="FileOpen">True</Compiler>
+			<Compiler Name="FileOpenUnitSrc">True</Compiler>
+			<Compiler Name="BadGlobalSymbol">True</Compiler>
+			<Compiler Name="DuplicateConstructorDestructor">True</Compiler>
+			<Compiler Name="InvalidDirective">True</Compiler>
+			<Compiler Name="PackageNoLink">True</Compiler>
+			<Compiler Name="PackageThreadVar">True</Compiler>
+			<Compiler Name="ImplicitImport">True</Compiler>
+			<Compiler Name="HPPEMITIgnored">True</Compiler>
+			<Compiler Name="NoRetVal">True</Compiler>
+			<Compiler Name="UseBeforeDef">True</Compiler>
+			<Compiler Name="ForLoopVarUndef">True</Compiler>
+			<Compiler Name="UnitNameMismatch">True</Compiler>
+			<Compiler Name="NoCFGFileFound">True</Compiler>
+			<Compiler Name="MessageDirective">True</Compiler>
+			<Compiler Name="ImplicitVariants">True</Compiler>
+			<Compiler Name="UnicodeToLocale">True</Compiler>
+			<Compiler Name="LocaleToUnicode">True</Compiler>
+			<Compiler Name="ImagebaseMultiple">True</Compiler>
+			<Compiler Name="SuspiciousTypecast">True</Compiler>
+			<Compiler Name="PrivatePropAccessor">True</Compiler>
+			<Compiler Name="UnsafeType">True</Compiler>
+			<Compiler Name="UnsafeCode">True</Compiler>
+			<Compiler Name="UnsafeCast">True</Compiler>
+			<Compiler Name="OptionTruncated">True</Compiler>
+			<Compiler Name="WideCharReduced">True</Compiler>
+			<Compiler Name="DuplicatesIgnored">True</Compiler>
+		</Compiler>
+		<Linker>
+			<Linker Name="MapFile">0</Linker>
+			<Linker Name="OutputObjs">0</Linker>
+			<Linker Name="ConsoleApp">1</Linker>
+			<Linker Name="DebugInfo">True</Linker>
+			<Linker Name="RemoteSymbols">False</Linker>
+			<Linker Name="GenerateDRC">False</Linker>
+			<Linker Name="MinStackSize">4096</Linker>
+			<Linker Name="MaxStackSize">1048576</Linker>
+			<Linker Name="ImageBase">4194304</Linker>
+			<Linker Name="ExeDescription"></Linker>
+		</Linker>
+		<Directories>
+			<Directories Name="OutputDir"></Directories>
+			<Directories Name="UnitOutputDir"></Directories>
+			<Directories Name="PackageDLLOutputDir"></Directories>
+			<Directories Name="PackageDCPOutputDir"></Directories>
+			<Directories Name="SearchPath">h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0;h:\windows\microsoft.net\framework\v1.1.4322</Directories>
+			<Directories Name="Packages">Borland.VclDSnap;Borland.VclBdeRtl;Borland.VclIBXpress;Borland.VclDbExpress;Borland.VclRtl;Borland.VclDbRtl;Borland.Vcl;IndySystem;IndyProtocols;IndyCore;h:\windows\microsoft.net\framework\v1.1.4322\System.Drawing.dll;Borland.Delphi</Directories>
+			<Directories Name="Conditionals"></Directories>
+			<Directories Name="DebugSourceDirs"></Directories>
+			<Directories Name="UsePackages">False</Directories>
+		</Directories>
+		<Parameters>
+			<Parameters Name="RunParams"></Parameters>
+			<Parameters Name="HostApplication"></Parameters>
+			<Parameters Name="Launcher"></Parameters>
+			<Parameters Name="UseLauncher">False</Parameters>
+			<Parameters Name="DebugCWD"></Parameters>
+			<Parameters Name="RemoteHost"></Parameters>
+			<Parameters Name="RemotePath"></Parameters>
+			<Parameters Name="RemoteLauncher"></Parameters>
+			<Parameters Name="RemoteCWD"></Parameters>
+			<Parameters Name="RemoteDebug">False</Parameters>
+		</Parameters>
+		<Language>
+			<Language Name="ActiveLang"></Language>
+			<Language Name="ProjectLang">$00000000</Language>
+			<Language Name="RootDir"></Language>
+		</Language>
+		<VersionInfo>
+			<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+			<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+			<VersionInfo Name="MajorVer">1</VersionInfo>
+			<VersionInfo Name="MinorVer">0</VersionInfo>
+			<VersionInfo Name="Release">0</VersionInfo>
+			<VersionInfo Name="Build">0</VersionInfo>
+			<VersionInfo Name="Debug">False</VersionInfo>
+			<VersionInfo Name="PreRelease">False</VersionInfo>
+			<VersionInfo Name="Special">False</VersionInfo>
+			<VersionInfo Name="Private">False</VersionInfo>
+			<VersionInfo Name="DLL">False</VersionInfo>
+			<VersionInfo Name="Locale">3082</VersionInfo>
+			<VersionInfo Name="CodePage">1252</VersionInfo>
+		</VersionInfo>
+		<VersionInfoKeys>
+			<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+			<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+			<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+		</VersionInfoKeys>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <FileList>
+      <File FileName="rplastsav.dcr" ContainerId=""/>
+      <File FileName="rpalias.dcr" ContainerId=""/>
+      <File FileName="rpeval.dcr" ContainerId=""/>
+      <File FileName="rptranslator.dcr" ContainerId=""/>
+      <File FileName="rppdfreport.dcr" ContainerId=""/>
+      <File FileName="rpvclreport.dcr" ContainerId=""/>
+      <File FileName="rpexpredlgvcl.dcr" ContainerId=""/>
+      <File FileName="rpmaskedit.dcr" ContainerId=""/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.Delphi.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Delphi" AssemblyName="borland.delphi" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.Drawing.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="System.Drawing" AssemblyName="System.Drawing" Version="1.0.5000.0" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\IndyCore.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="IndyCore" AssemblyName="IndyCore" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\IndyProtocols.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="IndyProtocols" AssemblyName="IndyProtocols" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\IndySystem.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="IndySystem" AssemblyName="IndySystem" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.Vcl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Vcl" AssemblyName="Borland.Vcl" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclDbRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDbRtl" AssemblyName="Borland.VclDbRtl" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclRtl" AssemblyName="Borland.VclRtl" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclDbExpress.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDbExpress" AssemblyName="Borland.VclDbExpress" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclIBXpress.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclIBXpress" AssemblyName="Borland.VclIBXpress" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclBdeRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclBdeRtl" AssemblyName="Borland.VclBdeRtl" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="h:\archivos de programa\archivos comunes\borland shared\bds\shared assemblies\3.0\Borland.VclDSnap.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDSnap" AssemblyName="Borland.VclDSnap" Version="9.0.1761.24408" LinkUnits="False"/>
+      <File FileName="rpmreg.pas" ContainerId="" ModuleName="rpmreg"/>
+      <File FileName="rplastsav.pas" ContainerId="" ModuleName="rplastsav"/>
+      <File FileName="rptypeval.pas" ContainerId="" ModuleName="rptypeval"/>
+      <File FileName="rpalias.pas" ContainerId="" ModuleName="rpalias"/>
+      <File FileName="rpbarcodecons.pas" ContainerId="" ModuleName="rpbarcodecons"/>
+      <File FileName="rpbasereport.pas" ContainerId="" ModuleName="rpbasereport"/>
+      <File FileName="rpcsvdriver.pas" ContainerId="" ModuleName="rpcsvdriver"/>
+      <File FileName="rpdatainfo.pas" ContainerId="" ModuleName="rpdatainfo"/>
+      <File FileName="rpdatatext.pas" ContainerId="" ModuleName="rpdatatext"/>
+      <File FileName="rpeval.pas" ContainerId="" ModuleName="rpeval"/>
+      <File FileName="rpparams.pas" ContainerId="" ModuleName="rpparams"/>
+      <File FileName="rpparser.pas" ContainerId="" ModuleName="rpparser"/>
+      <File FileName="rppdfdriver.pas" ContainerId="" ModuleName="rppdfdriver"/>
+      <File FileName="rppdffile.pas" ContainerId="" ModuleName="rppdffile"/>
+      <File FileName="rpreport.pas" ContainerId="" ModuleName="rpreport"/>
+      <File FileName="rpsubreport.pas" ContainerId="" ModuleName="rpsubreport"/>
+      <File FileName="rpsvgdriver.pas" ContainerId="" ModuleName="rpsvgdriver"/>
+      <File FileName="rptextdriver.pas" ContainerId="" ModuleName="rptextdriver"/>
+      <File FileName="rptranslator.pas" ContainerId="" ModuleName="rptranslator"/>
+      <File FileName="rptypes.pas" ContainerId="" ModuleName="rptypes"/>
+      <File FileName="rppdfreport.pas" ContainerId="" ModuleName="rppdfreport"/>
+      <File FileName="rpcompobase.pas" ContainerId="" ModuleName="rpcompobase"/>
+      <File FileName="rpmdrepclient.pas" ContainerId="" ModuleName="rpmdrepclient"/>
+      <File FileName="rpmdprotocol.pas" ContainerId="" ModuleName="rpmdprotocol"/>
+      <File FileName="rphtmldriver.pas" ContainerId="" ModuleName="rphtmldriver"/>
+      <File FileName="rpmdbarcode.pas" ContainerId="" ModuleName="rpmdbarcode"/>
+      <File FileName="rpinfoprovgdi.pas" ContainerId="" ModuleName="rpinfoprovgdi"/>
+      <File FileName="rpinfoprovid.pas" ContainerId="" ModuleName="rpinfoprovid"/>
+      <File FileName="rpsecutil.pas" ContainerId="" ModuleName="rpsecutil"/>
+      <File FileName="rpsection.pas" ContainerId="" ModuleName="rpsection"/>
+      <File FileName="rpprintitem.pas" ContainerId="" ModuleName="rpprintitem"/>
+      <File FileName="rpmdchart.pas" ContainerId="" ModuleName="rpmdchart"/>
+      <File FileName="rpdrawitem.pas" ContainerId="" ModuleName="rpdrawitem"/>
+      <File FileName="rplabelitem.pas" ContainerId="" ModuleName="rplabelitem"/>
+      <File FileName="rpmetafile.pas" ContainerId="" ModuleName="rpmetafile"/>
+      <File FileName="rpevalfunc.pas" ContainerId="" ModuleName="rpevalfunc"/>
+      <File FileName="rpmdcharttypes.pas" ContainerId="" ModuleName="rpmdcharttypes"/>
+      <File FileName="rpdataset.pas" ContainerId="" ModuleName="rpdataset"/>
+      <File FileName="rpmunits.pas" ContainerId="" ModuleName="rpmunits"/>
+      <File FileName="rpmdshfolder.pas" ContainerId="" ModuleName="rpmdshfolder"/>
+      <File FileName="rpmdconsts.pas" ContainerId="" ModuleName="rpmdconsts"/>
+      <File FileName="rpregvcl.pas" ContainerId="" ModuleName="rpregvcl"/>
+      <File FileName="rpvclreport.pas" ContainerId="" ModuleName="rpvclreport"/>
+      <File FileName="rpgdidriver.pas" ContainerId="" ModuleName="rpgdidriver"/>
+      <File FileName="rpgdifonts.pas" ContainerId="" ModuleName="rpgdifonts"/>
+      <File FileName="rpexpredlgvcl.pas" ContainerId="" ModuleName="rpexpredlgvcl"/>
+      <File FileName="rprfvparams.pas" ContainerId="" ModuleName="rprfvparams"/>
+      <File FileName="rpfmainmetaviewvcl.pas" ContainerId="" ModuleName="rpfmainmetaviewvcl"/>
+      <File FileName="rpfmetaviewvcl.pas" ContainerId="" ModuleName="rpfmetaviewvcl"/>
+      <File FileName="rpmdclitreevcl.pas" ContainerId="" ModuleName="rpmdclitreevcl"/>
+      <File FileName="rpmdfaboutvcl.pas" ContainerId="" ModuleName="rpmdfaboutvcl"/>
+      <File FileName="rpvpreview.pas" ContainerId="" ModuleName="rpvpreview"/>
+      <File FileName="rpexceldriver.pas" ContainerId="" ModuleName="rpexceldriver"/>
+      <File FileName="rppagesetupvcl.pas" ContainerId="" ModuleName="rppagesetupvcl"/>
+      <File FileName="rpmdprintconfigvcl.pas" ContainerId="" ModuleName="rpmdprintconfigvcl"/>
+      <File FileName="rpmaskedit.pas" ContainerId="" ModuleName="rpmaskedit"/>
+      <File FileName="rpvgraphutils.pas" ContainerId="" ModuleName="rpvgraphutils"/>
+      <File FileName="rpgraphutilsvcl.pas" ContainerId="" ModuleName="rpgraphutilsvcl"/>
+    </FileList>
+  </DelphiDotNet.Personality>
+</BorlandProject>

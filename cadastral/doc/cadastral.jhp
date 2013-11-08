@@ -1,0 +1,12 @@
+[OPTIONS]
+COMPRESS=12 Hall Zeck
+CNT=.\cadastral.cnt
+HLP=.\cadastral.hlp
+
+[FILES]
+.\cadastral.jrt
+
+[MAP]
+1=1
+[WINDOWS]
+Main="",(0,0,800,600),,(r16777215),(r16777215),

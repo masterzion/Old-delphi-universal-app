@@ -1,0 +1,53 @@
+package mzLibvcl;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  dsnap,
+  visualclx,
+  dbexpress,
+  vcldb,
+  VclSmp,
+  mzLib;
+
+contains
+  mzDatePickervcl in 'mzDatePickervcl.pas',
+  mzDBCheckBoxvcl in 'mzDBCheckBoxVCL.pas',
+  mzDBComboBoxVCL in 'mzDBComboBoxvcl.pas',
+  mzDBLabelvcl in 'mzDBLabelvcl.pas',
+  mzFileEditvcl in 'mzFileEditvcl.pas',
+  mzMemovcl in 'mzMemovcl.pas',
+  mzBtnEditvcl in 'mzBtnEditvcl.pas',
+  mzBtnQueryEditvcl in 'mzBtnQueryEditvcl.pas',
+  mzCalcEditVCL in 'mzCalcEditvcl.pas',
+  mzComboBoxVCL in 'mzComboBoxVCL.pas',
+  mzCompLibvcl in 'mzCompLibvcl.pas',
+  mzCustomEditvcl in 'mzCustomEditvcl.pas',
+  mzNumEditvcl in 'mzNumEditvcl.pas';
+
+end.

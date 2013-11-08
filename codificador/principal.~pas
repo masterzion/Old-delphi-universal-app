@@ -1,0 +1,62 @@
+unit principal;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DCPcrypt2, DCPmd5, DCPrc4, StdCtrls, ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Memo1: TMemo;
+    Panel1: TPanel;
+    Button1: TButton;
+    Memo2: TMemo;
+    DCP_rc4: TDCP_rc4;
+    Button2: TButton;
+    Edit1: TEdit;
+    Label1: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+    function Codificar(const Texto:string; chave:string):string;
+    begin
+      DCP_RC4.InitStr(chave, TDCP_md5);
+      Result := DCP_RC4.EncryptString(Texto);
+      DCP_RC4.Burn;
+    end;
+
+    function Descodificar(const Texto:string; chave:string):string;
+    begin
+      Result := '';
+      DCP_RC4.InitStr(chave, TDCP_MD5);
+      Result := DCP_RC4.DecryptString(Texto);
+      DCP_RC4.Burn;
+    end;
+
+
+begin
+  if (sender as TButton).Tag = 0 then
+    Memo2.Text := Codificar(Memo1.Text, Edit1.Text)
+  else
+    Memo2.Text := DesCodificar(Memo1.Text, Edit1.Text);
+
+end;
+
+
+
+
+
+end.

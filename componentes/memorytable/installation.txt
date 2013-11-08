@@ -1,0 +1,56 @@
+Install instructions for kbmMemTable
+====================================
+
+All preinstallation:
+ - Make empty directory specifically for TkbmMemTable. Eg. <?:\Your IDE Directory>\Projects\TkbmMemTable
+ - Extract all files into the directory.
+ - Create a subdirectory named 'Demo'
+ - Extract the demo project zip file into the subdirectory.
+
+Delphi 3 / Borland C++ Builder 3:
+ - In 'Components' tab, choose install component
+ - Select kbmMemTable.pas
+ - Install.
+
+Delphi 4:
+ - Open kbmMemD4.dpk
+ - Compile
+ - Install.
+
+Delphi 5:
+ - Open kbmMemD5Run.dpk
+ - Compile
+ - Open kbmMemD5Des.dpk
+ - Compile
+ - Install.
+
+Delphi 6:
+ - Open kbmMemD6Run.dpk
+ - Compile
+ - Open kbmMemD6Des.dpk
+ - Compile
+ - Install.
+
+Borland C++ Builder 4:
+ - Open kbmMemC4.bpk 
+ - Compile
+ - Install.
+
+Borland C++ Builder 5:
+ - Open project kbmMemC5Run.bpk
+ - Compile
+ - Open project kbmMemC5Des.bpk
+ - Compile
+ - Install
+
+Kylix 3 for Delphi:
+ - Open project kbmMemK3DRun.bpk
+ - Compile
+ - Open project kbmMemK3DDes.bpk
+ - Compile
+ - Install
+ - Note that for Kylix to be able to find the libraries after restart, 
+   they should be placed in a directory searched by Kylix. F.ex. the users
+   homedirectory.
+
+You will find three new components in the 'kbmMemTable' tab after a successfull installation.

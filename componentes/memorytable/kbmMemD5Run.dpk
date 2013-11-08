@@ -1,0 +1,49 @@
+package kbmMemD5Run;
+
+{$R *.RES}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl50,
+  Vcldb50;
+
+contains
+  kbmMemResGer in 'kbmMemResGer.pas',
+  kbmMemTable in 'kbmMemTable.pas',
+  kbmMemResEng in 'kbmMemResEng.pas',
+  kbmMemResRus in 'kbmMemResRus.pas',
+  kbmMemResFra in 'kbmMemResFra.pas',
+  kbmMemResBra in 'kbmMemResBra.pas',
+  kbmMemResSpa in 'kbmMemResSpa.pas',
+  kbmMemResIta in 'kbmMemResIta.pas',
+  kbmMemResCsy in 'kbmMemResCsy.pas',
+  kbmMemResSky in 'kbmMemResSky.pas',
+  kbmMemResDut in 'kbmMemResDut.pas',
+  kbmMemResHun in 'kbmMemResHun.pas',
+  kbmMemResUkr in 'kbmMemResUkr.pas',
+  kbmMemCSVStreamFormat in 'kbmMemCSVStreamFormat.pas',
+  kbmMemBinaryStreamFormat in 'kbmMemBinaryStreamFormat.pas';
+
+end.

@@ -1,0 +1,4 @@
+rppackvcl_del.dpk
+rppackv_del.dpk
+rppackdesignvcl_del.dpk
+rppackdesign_del.dpk

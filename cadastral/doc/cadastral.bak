@@ -1,0 +1,332 @@
+JBHFILEVERSION
+3
+cadastral
+16777215
+16777215
+0
+0
+800
+600
+12
+Inicio
+Inicio
+
+TRUE
+	Inicio
+Inicio
+Inicio
+FALSE
+Modo de usar
+Modo de usar
+
+TRUE
+	Editar
+Editar
+Editar
+FALSE
+	Cadastros
+Cadastros
+Cadastros
+FALSE
+	Busca
+Busca
+Busca
+FALSE
+	Localizar dados
+Localizar dados
+Localizar dados
+FALSE
+	Ferramentas
+Ferramentas
+
+TRUE
+		Ferramentas
+Ferramentas
+Ferramentas
+FALSE
+		Calendario
+Calendario
+Calendario
+FALSE
+		Calculadora
+Calculadora
+Calculadora
+FALSE
+		Envio de mensagens
+Envio de mensagens
+Envio de mensagens
+FALSE
+9
+Inicio
+
+1
+
+
+8
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\qc\cf1\b\fs28 Supernova Consultoria em Sistemas\b0\f1\fs20 
+\par \pard 
+\par \pard\qc\cf2\ul\protect #..\\..\\CriaForms\\doc\\splash.bmp#\cf1\ulnone  \protect0 
+\par \pard 
+\par \pard\qc http://www.supernova-ti.com.br
+\par }
+0
+0
+1
+..\..\CriaForms\doc\splash.bmp
+Editar
+
+2
+
+
+6
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\fs20 Nesse menu \lang1046\'e9 possivel copiar, colar e desfazer altera\'e7oes do campo.
+\par 
+\par \cf2\ul\protect #editar.bmp#\cf1\ulnone  \lang1033\protect0\f1 
+\par }
+0
+0
+1
+editar.bmp
+Cadastros
+
+3
+
+
+28
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Todos os cadastros funcionam de modo similar para facilitar a vida do usuario.
+\par Essa interface intuitiva faz com que o usuario n\'e3o tenha dificuldades em utilizar novos modulos adicionados.
+\par 
+\par As principais funcionalidades s\'e3o:
+\par 
+\par \cf2\ul\protect #form.bmp#\cf1\ulnone  \lang1033\protect0\f1 
+\par 
+\par 
+\par \lang1046\f0 1) \'c9 uma lista de relat\'f3rios pertencentes a esse modulo. Basta clicar e um preview do relat\'f3rio abrir\'e1;
+\par 
+\par 2) Insere um novo cadastro (nota: os dados tem que ser salvos para serem inseridos no banco de dados);
+\par 
+\par 3) Salva as altera\'e7\'f5es dos dados.
+\par 
+\par 4) Faz uma \cf2\ul\protect ##busca##\cf1\ulnone  \protect0  dos dados presentes no banco de dados;
+\par 
+\par 5) Fecha o modulo atual;
+\par 
+\par 6) Exclui os dados permanentemente;
+\par 
+\par 7) Campos em vermelho s\'e3o obrigat\'f3rios, a aplica\'e7\'e3o n\'e3o salva os dados at\'e9 o mesmo estiver preenchido. Isso evita dados inconsistentes no banco de dados;
+\par 
+\par 8) Os bot\'f5es que ficam ao lado dos campos servem para agilizar o processo de cadastro. Esse bot\'e3o de \'e9 um bot\'e3o de \cf2\ul\protect ##localizar dados##\cf1\ulnone  \protect0 .
+\par 
+\par \lang1033\f1 
+\par }
+0
+2
+busca
+0
+Busca
+busca
+FALSE
+localizar dados
+0
+Localizar dados
+localizar dados
+FALSE
+1
+form.bmp
+Busca
+
+4
+
+
+22
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Nessa aba \'e9 possivel localizar localizar os dados contidos no banco.
+\par 
+\par \cf2\ul\protect #busca.bmp#\cf1\ulnone  \protect0 
+\par 
+\par 1) Esse bot\'e3o faz a busca;
+\par 
+\par 2) Os campos contidos nesse local, servem para criar filtros dos dados que ser\'e3o retornados, campos de texto costuma se usar o sinal '%' . Nesse exemplo temos o um campo 'nome' com a busca 'A%'. Ent\'e3o todos os nomes que come\'e7arem com 'A' ser\'e3o exibidos.
+\par ex:
+\par  Alex
+\par  Adriano
+\par  Andr\'e9
+\par 
+\par Caso seja colocado na busca '%ar%' ent\'e3o qualquer nome que contenha as letras 'ar' ser\'e3o exibidos.
+\par Ex:
+\par   Marcio
+\par   Marcos
+\par   Ricardo
+\par 
+\par 3) Esse o local onde \'e9 exibido os dados localizados. Abra os dados para serem editados com um clique duplo na linha desejada.\lang1033\f1 
+\par }
+0
+0
+1
+busca.bmp
+Localizar dados
+
+5
+
+
+16
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Essa tela de busca permite preencher um ou mais campos de uma s\'f3 vez. Poupando o trabalho e acelerando o processo cadastral.
+\par 
+\par \cf2\ul\protect #Localiza.bmp#\cf1\ulnone  \protect0  
+\par 
+\par 1) \'c9 possivel fazer v\'e1rios tipos de busca em uma s\'f3 tela. Nesse exemplo, est\'e1 sendo procurado o endere\'e7o pelo CEP, mas tamb\'e9m poderia ser pelo nome da rua se fosse selecionado.
+\par 
+\par 2) Aqui \'e9 onde o filtro \'e9 inserido. nesse exemplo \'e9 o CEP pertencente a um endere\'e7o.
+\par 
+\par 3) Esse \'e9 o local onde \'e9 mostrado os dados de uma busca. Com um clique duplo na linha desejada, a tela fechar\'e1 e os dasdos ser\'e3o preenchidos.
+\par 
+\par 4) Bot\'e3o que executa a busca. (nota: apertando a tecla ENTER no campo de filtro, a busca tamb\'e9m \'e9 executada).
+\par 
+\par 5) Fecha a tela sem retornar os dados.\lang1033\f1 
+\par }
+0
+0
+1
+Localiza.bmp
+Ferramentas
+
+6
+
+
+9
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Esse menu mostra algumas ferramentas que pode ajudar o dia a dia do usu\'e1rio.
+\par 
+\par Os recursos disponiveis s\'e3o:
+\par \cf2\lang1033\ul\protect\f1 ##Calendario##\cf1\ulnone  \lang1046\protect0\f0 ;\lang1033\f1 
+\par \cf2\ul\protect ##Calculadora##\cf1\ulnone  \lang1046\protect0\f0 ;
+\par \cf2\ul\protect ##Envio de mensagens##\cf1\ulnone  \protect0 ;\lang1033\f1 
+\par }
+0
+3
+Calendario
+0
+Calendario
+Calendario
+FALSE
+Calculadora
+0
+Calculadora
+Calculadora
+FALSE
+Envio de mensagens
+0
+Envio de mensagens
+Envio de mensagens
+FALSE
+0
+Calendario
+
+7
+
+
+6
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Um calendario simples, mas que \'e9 aberto rapidamente pela pr\'f3pria aplica\'e7\'e3o.
+\par 
+\par \cf2\lang1033\ul\protect\f1 #calendario.bmp#\cf1\ulnone  \protect0 
+\par }
+0
+0
+1
+calendario.bmp
+Calculadora
+
+8
+
+
+7
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Essa \'e9 uma calculadora com um interessante recurso de hist\'f3rico.
+\par Para limpar o historico, basta clicar no bot\'e3o "Limpar".
+\par 
+\par \cf2\ul\protect #calculadora.bmp#\cf1\ulnone  \lang1033\protect0\f1 
+\par }
+0
+0
+1
+calculadora.bmp
+Envio de mensagens
+
+9
+
+
+55
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1046\fs20 Essa ferramenta \'e9 muito util e com bastante recurso.
+\par Com ela voc\'ea pode enviar mensagens a outros usuarios conectados ao sistema.
+\par Voc\'ea tamb\'e9m pode guardar anota\'e7\'f5es sigilosas.
+\par E tudo isso \'e9 enviado e guardado codificado (criptografia RC4 que vai at\'e9 2048 bits).
+\par 
+\par 
+\par \b Recursos disponiveis para enviar mensagem:
+\par \b0 
+\par \cf2\ul\protect #mensagem1.bmp#\cf1\ulnone  \lang1033\protect0\f1 
+\par 
+\par \lang1046\f0 01) Cria um lembrete para o usuario logado;
+\par 
+\par 02) Envia uma mensagem para um usuario ou grupo;
+\par 
+\par 03) Atualiza a lista de mensagens e recados;
+\par 
+\par 04) Exclui a mensagem selecionada na lista de mensagens;
+\par 
+\par 05) Fecha a tela;
+\par 
+\par 06) Lista de mensagens
+\par 
+\par 07) Onde pode se ver a lista de usuarios presentes no sistema.
+\par 
+\par 08) Lista de grupos de usuarios do sistema. A mensagem \'e9 encaminhada para todos os usu\'e1rios pertencentes a esse grupo.
+\par 
+\par 09) Adiciona na lista de destinatarios o usuario ou usu\'e1rios do grupo.
+\par 
+\par 10) Lista de destinat\'e1rios;
+\par 
+\par 
+\par \b Recursos disponiveis ao abrir mensagem:\b0 
+\par \lang1033\f1 
+\par \cf2\ul\protect #mensagem2.bmp#\cf1\ulnone  \protect0 
+\par 
+\par \lang1046\f0 1) Responde a mensagem para o usuario que enviou a mensagem;
+\par 
+\par 2) Fecha a janela atual;
+\par 
+\par 3) Nome do usuario que enviou a mensagem;
+\par 
+\par 4) Data e hora de quando a mensagem ou anota\'e7\'e3o foi enviada;
+\par 
+\par 5) Conteudo da mensagem ou anota\'e7\'e3o;
+\par 
+\par \lang1033\f1 
+\par \lang1046\b\f0 Informa\'e7\'e3o adicional:
+\par 
+\par \cf2\ul\b0\protect #mensagem3.bmp#\cf1\ulnone\b  \protect0 
+\par \b0 
+\par 1) Sempre que uma mensagem \'e9 recebida um alerta \'e9 exibido nesse local alertando o usuario. Com um clique duplo nesse local a lista de mensagens e anota\'e7\'f5es \'e9 exibida .\lang1033\f1 
+\par 
+\par }
+0
+0
+3
+mensagem1.bmp
+mensagem2.bmp
+mensagem3.bmp

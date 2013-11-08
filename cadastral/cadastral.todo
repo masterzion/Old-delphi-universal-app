@@ -1,0 +1,57 @@
+{DONE 1 -oJairo -cCorrrecao : Tirar botão + e - do grid}
+{DONE 1 -oJairo -cCorrrecao : Arrumar o "Remover" do Query Edit}
+{DONE 1 -oJairo -cCorrrecao : Tirar recurso propriedades do QueryEdit}
+{DONE 1 -oJairo -cMelhorar : Posicionamento e redimensionamento de Grid}
+{DONE 1 -oJairo -cMelhorar : Redimensionar form para exibir todos os componentes}
+{DONE 1 -oJairo -cInicializar : Colocar Memo no programa cadastral}
+{DONE 1 -oJairo -cInicializar : Redimensionar altura do Memo}
+{DONE 1 -oJairo -cCorrrecao : Consertar urgente!!!   Não é possivel atualizar uma tela se já estiver setado um controle de acesso devido a violação de fk.}
+{DONE 1 -oJairo -cMelhorar : Colocar about no criaforms}
+{DONE 1 -oJairo -cCorrrecao : Erro no envio de mensagem}
+{DONE 1 -oJairo -cCorrrecao : Corrigir erro da mensagem de campos obrigatorios}
+{DONE 1 -oJairo -cMelhorar : Melhoria no preview do relatorio}
+{TODO -oJairo -cInicializar : Criar sistema de Instalacao}
+{TODO -oJairo -cInicializar : Ferramentas Para criar tabelas}
+{TODO 3 -oJairo -cInicializar : Testar Com Oracle}
+{TODO 2 -oJairo -cInicializar : Testar Com SQL Server}
+{TODO 1 -oJairo -cInicializar : Testar Com Firebird}
+{TODO 1 -oJairo -cInicializar : Testar Com Interbase}
+{DONE 1 -oJairo -cDebugar : Consertar bug do mzFileEdit}
+{TODO 2 -oJairo -cInicializar : Criar TabSheet}
+{TODO 2 -oJairo -cInicializar : Debug Geral}
+
+{TODO 1 -oJairo -cMelhorar : Melhorar DB Grid}
+{DONE 1 -oJairo -cInicializar : Editar TabOrder}
+{TODO 2 -oJairo -cInicializar : Graficos}
+
+
+{TODO 1  -oJairo -cInicializar : Debug Geral}
+{TODO 3 -oJairo -cMelhorar : Editar modulos já prontos}
+{TODO 1  -oJairo -cInicializar : Pesonalizar ordem de menu}
+{DONE 3  -oJairo -cInicializar : Multiplos relatórios por modulo}
+{TODO 5  -oJairo -cInicializar : Criar forms para tabelas filhas}
+
+
+
+{TODO 1 -oJairo -cMelhorar : Melhorar documentaçao}
+{TODO 5  -oJairo -cInicializar : Lock nos campos sendo editados}
+{TODO 2  -oJairo -cMelhorar : Mais propriedades aos Componentes}
+{TODO  -oJairo -cInicializar : Usar Stored Procedures}
+
+{TODO 2 -oJairo -cMelhorar : Mais componentes}
+{TODO 5  -oJairo -cMelhorar : CGI mais avançado}
+{DONE 1 -oJairo -cInicializar : Relatorios}
+
+
+
+
+{TODO 2 -oJairo -cInicializar :
+Botões de salvar, excluir, etc...
+com querys After e Before}
+
+{TODO 5  -oJairo -cMelhorar : Mais Recursos para plugins}
+{TODO 3 -oJairo -cInicializar : Iniciar CGI por modulos}
+{TODO 1 -oJairo -cMelhorar : Terceira camada de relacionamento (memory table)}
+
+
+

@@ -1,0 +1,341 @@
+object tbPadrao: TtbPadrao
+  Left = 392
+  Top = 221
+  Width = 390
+  Height = 265
+  VertScrollBar.Range = 54
+  ActiveControl = btnFechar
+  Caption = 'tbPadrao'
+  Color = clBackground
+  Constraints.MinHeight = 265
+  Constraints.MinWidth = 390
+  FormStyle = fsMDIChild
+  Icon.Data = {
+    424D360500000000000036040000280000001000000010000000010008000000
+    000000010000120B0000120B0000000100000001000000000000400000008000
+    0000FF000000002000004020000080200000FF20000000400000404000008040
+    0000FF400000006000004060000080600000FF60000000800000408000008080
+    0000FF80000000A0000040A0000080A00000FFA0000000C0000040C0000080C0
+    0000FFC0000000FF000040FF000080FF0000FFFF000000002000400020008000
+    2000FF002000002020004020200080202000FF20200000402000404020008040
+    2000FF402000006020004060200080602000FF60200000802000408020008080
+    2000FF80200000A0200040A0200080A02000FFA0200000C0200040C0200080C0
+    2000FFC0200000FF200040FF200080FF2000FFFF200000004000400040008000
+    4000FF004000002040004020400080204000FF20400000404000404040008040
+    4000FF404000006040004060400080604000FF60400000804000408040008080
+    4000FF80400000A0400040A0400080A04000FFA0400000C0400040C0400080C0
+    4000FFC0400000FF400040FF400080FF4000FFFF400000006000400060008000
+    6000FF006000002060004020600080206000FF20600000406000404060008040
+    6000FF406000006060004060600080606000FF60600000806000408060008080
+    6000FF80600000A0600040A0600080A06000FFA0600000C0600040C0600080C0
+    6000FFC0600000FF600040FF600080FF6000FFFF600000008000400080008000
+    8000FF008000002080004020800080208000FF20800000408000404080008040
+    8000FF408000006080004060800080608000FF60800000808000408080008080
+    8000FF80800000A0800040A0800080A08000FFA0800000C0800040C0800080C0
+    8000FFC0800000FF800040FF800080FF8000FFFF80000000A0004000A0008000
+    A000FF00A0000020A0004020A0008020A000FF20A0000040A0004040A0008040
+    A000FF40A0000060A0004060A0008060A000FF60A0000080A0004080A0008080
+    A000FF80A00000A0A00040A0A00080A0A000FFA0A00000C0A00040C0A00080C0
+    A000FFC0A00000FFA00040FFA00080FFA000FFFFA0000000C0004000C0008000
+    C000FF00C0000020C0004020C0008020C000FF20C0000040C0004040C0008040
+    C000FF40C0000060C0004060C0008060C000FF60C0000080C0004080C0008080
+    C000FF80C00000A0C00040A0C00080A0C000FFA0C00000C0C00040C0C00080C0
+    C000FFC0C00000FFC00040FFC00080FFC000FFFFC0000000FF004000FF008000
+    FF00FF00FF000020FF004020FF008020FF00FF20FF000040FF004040FF008040
+    FF00FF40FF000060FF004060FF008060FF00FF60FF000080FF004080FF008080
+    FF00FF80FF0000A0FF0040A0FF0080A0FF00FFA0FF0000C0FF0040C0FF0080C0
+    FF00FFC0FF0000FFFF0040FFFF0080FFFF00FFFFFF00E3E3E3E3E3E3E3E3E3E3
+    E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3
+    E3E3E3E3E3E3E302020101E3E30101E3E3E3010101E303E3E302E3E301E3E301
+    E301E3E3E3E3E3030202E3E301E3E3016C01E3E3E3E3E3E3E302E3E301E3E301
+    FE6CE3E301E3E30303E3E3E3020101E349FE6C0101E3E3E3E3E3E3E302E3E3E3
+    49FE6CE3E3E3E3E3E3E3E3E302E3E3E349FFFE6CE3E3E3E3E3E3E30303E3E3E3
+    E349FE6CE3E3E3E3E3E3E3E3E3E3E3E3E349FFFE6CE3E3E3E3E3E3E3E3E3E3E3
+    E3E3496C6C6CE3E3E3E3E3E3E3E3E3E3E3E349A0A06CE3E3E3E3E3E3E3E3E3E3
+    E3E3494949E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3}
+  Position = poScreenCenter
+  Scaled = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  PixelsPerInch = 96
+  object Controle: TToolBar
+    Left = 0
+    Top = 0
+    Width = 390
+    Height = 54
+    ButtonHeight = 39
+    ButtonWidth = 51
+    Caption = 'Controle'
+    EdgeBorders = []
+    Flat = True
+    Images = frmPrincipal.ImageList1
+    ShowCaptions = True
+    TabOrder = 0
+    object btnLocalizar: TToolButton
+      HelpType = htContext
+      Left = 272
+      Top = 2
+      Height = 39
+      Action = ActLocalizar
+      Caption = 'Localizar'
+    end
+    object ToolButton5: TToolButton
+      Left = 323
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton5'
+      ImageIndex = 1
+    end
+    object btnNovo: TToolButton
+      HelpType = htContext
+      Left = 1
+      Top = 2
+      Height = 39
+      Action = ActNovo
+      Caption = 'Novo'
+    end
+    object btnSalvar: TToolButton
+      HelpType = htContext
+      Left = 52
+      Top = 2
+      Height = 39
+      Action = ActSalvar
+      Caption = 'Salvar'
+    end
+    object ToolButton8: TToolButton
+      Left = 103
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton8'
+      ImageIndex = 3
+    end
+    object btnExcluir: TToolButton
+      HelpType = htContext
+      Left = 111
+      Top = 2
+      Height = 39
+      Action = ActExcluir
+      Caption = 'Excluir'
+    end
+    object ToolButton10: TToolButton
+      Left = 162
+      Top = 2
+      Width = 8
+      Height = 39
+      Style = tbsSeparator
+      Caption = 'ToolButton10'
+      ImageIndex = 4
+    end
+    object btnFechar: TToolButton
+      HelpType = htContext
+      Left = 331
+      Top = 2
+      Height = 39
+      Action = ActFechar
+      Caption = 'Fechar'
+    end
+    object btnImprimir: TToolButton
+      HelpType = htContext
+      Left = 170
+      Top = 2
+      Height = 39
+      Action = ActImprimir
+      Caption = 'Imprimir'
+    end
+    object ToolButton1: TToolButton
+      HelpType = htContext
+      Left = 221
+      Top = 2
+      Height = 39
+      Action = actGraficos
+      Caption = 'Gr'#225'ficos'
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 54
+    Width = 390
+    Height = 211
+    ActivePage = TabSheetDetalhes
+    Align = alClient
+    Style = tsFlatButtons
+    TabOrder = 1
+    object TabSheetDetalhes: TTabSheet
+      Caption = 'Detalhes'
+    end
+    object TabSheetBrowser: TTabSheet
+      Caption = 'Browser'
+      ImageIndex = 1
+      object Splitter1: TSplitter
+        Left = 0
+        Top = 120
+        Width = 382
+        Height = 5
+        Cursor = crVSplit
+        Align = alTop
+      end
+      object PanelBrowser: TPanel
+        Left = 0
+        Top = 125
+        Width = 382
+        Height = 52
+        Align = alClient
+        BevelInner = bvLowered
+        TabOrder = 0
+      end
+      object DBGridBusca: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 382
+        Height = 120
+        Align = alTop
+        DataSource = DataSource1
+        ReadOnly = True
+        TabOrder = 1
+        TitleFont.Color = clBlack
+        TitleFont.Height = 11
+        TitleFont.Name = 'MS Shell Dlg'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Style = []
+        TitleFont.Weight = 40
+        OnDblClick = DBGridBuscaDblClick
+        OnKeyDown = DBGridBuscaKeyDown
+      end
+    end
+  end
+  object Query: TSQLQuery
+    DataSource = DataSource1
+    MaxBlobSize = -1
+    Params = <>
+    SQL.Strings = (
+      '')
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 8
+    Top = 184
+  end
+  object XMLDocument1: TXMLDocument
+    Left = 56
+    Top = 56
+    DOMVendorDesc = 'Open XML'
+  end
+  object ClientDataSetBusca: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'DataSetProvider1'
+    Left = 288
+    Top = 128
+  end
+  object DataSetProvider1: TDataSetProvider
+    DataSet = SQLQueryBusca
+    Left = 288
+    Top = 160
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSetBusca
+    Left = 288
+    Top = 96
+  end
+  object QueryAux: TSQLQuery
+    DataSource = DataSource1
+    MaxBlobSize = -1
+    Params = <>
+    SQL.Strings = (
+      '')
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 40
+    Top = 184
+  end
+  object SQLQueryBusca: TSQLQuery
+    MaxBlobSize = -1
+    Params = <>
+    SQLConnection = frmPrincipal.SQLConnection1
+    Left = 292
+    Top = 196
+  end
+  object ActionList1: TActionList
+    Images = frmPrincipal.ImageList1
+    Left = 20
+    Top = 52
+    object ActNovo: TAction
+      Category = 'Dados'
+      Caption = 'Novo'
+      ImageIndex = 20
+      OnExecute = ActNovoExecute
+    end
+    object ActSalvar: TAction
+      Category = 'Dados'
+      Caption = 'Salvar'
+      ImageIndex = 19
+      OnExecute = ActSalvarExecute
+    end
+    object ActExcluir: TAction
+      Category = 'Dados'
+      Caption = 'Excluir'
+      ImageIndex = 15
+      OnExecute = ActExcluirExecute
+    end
+    object ActImprimir: TAction
+      Category = 'Dados'
+      Caption = 'Imprimir'
+      ImageIndex = 44
+      OnExecute = ActImprimirExecute
+    end
+    object ActLocalizar: TAction
+      Category = 'Dados'
+      Caption = 'Localizar'
+      ImageIndex = 4
+      OnExecute = ActLocalizarExecute
+    end
+    object ActFechar: TAction
+      Category = 'Dados'
+      Caption = 'Fechar'
+      ImageIndex = 13
+      OnExecute = ActFecharExecute
+    end
+    object actGraficos: TAction
+      Category = 'Dados'
+      Caption = 'Gr'#225'ficos'
+      Enabled = False
+      ImageIndex = 12
+      Visible = False
+    end
+  end
+  object CLXReport1: TCLXReport
+    Filename = 'C:\bin\rels\report_001.rep'
+    ReportName = 'teste'
+    Title = 'teste'
+    Language = 416
+    Left = 140
+    Top = 148
+  end
+  object PopupRel: TPopupMenu
+    Images = frmPrincipal.ImageList1
+    Left = 184
+    Top = 48
+  end
+  object RpTranslator1: TRpTranslator
+    Active = True
+    Filename = 'reportmanres.pt'
+    Left = 116
+    Top = 180
+  end
+  object DCP_md5: TDCP_md5
+    Id = 16
+    Algorithm = 'MD5'
+    HashSize = 128
+    Left = 156
+    Top = 140
+  end
+  object DCP_rc4: TDCP_rc4
+    Id = 19
+    Algorithm = 'RC4'
+    MaxKeySize = 2048
+    Left = 172
+    Top = 180
+  end
+end

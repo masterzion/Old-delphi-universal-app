@@ -1,0 +1,3440 @@
+{\rtf1\ansi\deff0
+
+{\fonttbl
+{\f0\fnil\fcharset0 Arial;}
+{\f1\fswiss MS Sans Serif;}
+{\f2\froman\fcharset2 Symbol;}
+{\f3\fswiss\fcharset1 Arial;}
+{\f4\fswiss\fprq2 System;}
+{\f5\fmodern\fcharset1 Terminal;}
+{\f6\froman Times New Roman;}
+{\f7\fswiss Arial;}
+{\f8\fmodern Courier;}
+}
+
+{\colortbl;
+\red0\green0\blue0;
+\red0\green128\blue0;
+}
+
+\plain\fs20\cf1
+
+#{\footnote 0}
+${\footnote Inicio}
+K{\footnote Inicio}
+\b0\i0\cf0
+\pard
+\qc
+\plain
+\f3
+\fs32
+\cf1
+\b
+Supernova Consultoria em Sistemas\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc splash.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+http://www.supernova-ti.com.br\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 1}
+${\footnote Servidor de Banco de Dados}
+K{\footnote Servidor de Banco de Dados}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Funcionamento do Banco de Dados\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Para que os dados sejam armazenados, eh preciso que voc\'ea
+ tenha um servidor de banco de dados.\par
+Servidor de Banco gerenciam as conex\'f5es
+ entre uma ou mais maquinas. \par
+Normalmente eles seguem o conceito de Cliente/Servidor.\par
+\par
+O Cliente envia pedidos de dados chamados \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Query}{\v 4}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+(Consulta).\par
+O Servidor se encarrega de armazenar e proteger todos os dados e executar a \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Query}{\v 4}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+procurando, inserindo ou apagando os dados em uma dentro de um \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Banco de Dados}{\v 2}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+\par
+Existem varios bancos de dados.\par
+Cada qual com um com seus recursos e algumas vezes limita\'e7
+\'f5es.
+\par
+\par
+Alguns dos Bancos de Dados Conhecidos s\'e3o:
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb mySQL}{\v 10}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb InterBase}{\v 16}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+     \par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Firebird}{\v 17}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Fazendo um breve comparativo entre os bancos de dados citados o mySQL \'e9
+ gratuito e muito r\'e1pido,
+ por\'e9m
+ n\'e3o
+ possui alguns recursos como \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb View}{\v 22}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ e \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Stored Procedures}{\v 19}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ainda est\'e1
+ em desenvolvimento.\par
+\par
+O Firebird \'e9
+ outro banco de dados gratuito.Possui poderosos recursos com \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb View}{\v 22}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+,  \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Stored Procedures}{\v 19}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ e um recurso de contagem automatica muito flexivel chamado \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Generator}{\v 18}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+Os Generators devem trabalhar em conjunto com as \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Trigger}{\v 18}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+Por ter mais recursos, ele \'e9
+ um pouco mais lento.\par
+\par
+O Interbase possui todos os recursos do Firebird. A diferen\'e7a
+ \'e9
+ que o Interbase \'e9
+ pago, mais possui a vantagem de Suporte T\'e9cnico
+ especializado.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 2}
+${\footnote Banco de Dados}
+K{\footnote Banco de Dados}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Um Servidor de banco de dados de gerenciam as conex\'f5es
+ e dados em diversos Bancos de Dados dentro dele.\par
+\par
+Dentro de um banco de dados se encontram, por exemplo as \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Tabelas}{\v 3}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+\par
+Existem diversas ferramentas que auxiliam a manuten\'e7
+\'e3o
+ e o gerenciamento do banco.\par
+Para o mySQL as mais conhecidas s\'e3o:
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb mySQL Control Center}{\v 14}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb DBDesigner}{\v 15}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Ambos Gratuitos para MS Windows\'ae
+ e Linux .\par
+\par
+Para Interbase e Firebird as mais conhecidas s\'e3o:
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb ERWIN}{\v 20}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb IBExpert}{\v 21}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Ambos pagos.\par
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 3}
+${\footnote Tabelas}
+K{\footnote Tabelas}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Tabelas s\'e3o
+ estruturas similares as conhecidas planilhas de dados.\par
+\par
+Visualmente faladon s\'e3o
+ diversas colunas com linhas diversos tipos de dados.\par
+Os nomes dos tipos de dados podem mudar de acordo com o banco de dados que voc\'ea
+ ir\'e1
+ usar.\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 4}
+${\footnote Consulta (Query)}
+K{\footnote Consulta (Query)}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Trabalhando com consultas\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Uma consulta pode coordenar, alterar e criar pra ticamente tudo em um banco de dados.\par
+At\'e9
+ mesmo pode criar um banco de dados.\par
+\par
+Veja algum exemplos usando consultas:\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\ul Inserir}{\v 5}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\ul Select}{\v 6}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\ul Delete}{\v 7}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\ul Join}{\v 8}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\par
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 5}
+${\footnote Query Insert}
+K{\footnote Query Insert}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Inserindo dados em uma uma tabela chamada tbUsuario:\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+insert into tbUsuario\par
+(nIDUsuario, nIDEmpresa, sNomeUsuario , nIDGrupo, sSenha, bExibir, nValidade )\par
+Values\par
+(1 , 1 ,"ROOT",  1, password("root"), "Y", -1)\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 6}
+${\footnote Query select}
+K{\footnote Query select}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Seleciona o c\'f3digo
+ do grupo e o nome do usuario na tabela tbUsuario :\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+select\par
+    nIDGrupo,\par
+    sNomeUsuario\par
+from\par
+    tbUsuario\par
+where \par
+    nIDUsuario =1\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\par
+Seleciona os nomes dos usuarios na tabela tbUsuario que comecem com R :\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+select\par
+   sNomeUsuario\par
+from\par
+    tbUsuario\par
+where \par
+    sNomeUsuario like 'R%'\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 7}
+${\footnote Query Delete}
+K{\footnote Query Delete}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Apaga da tabela tbUsuario o usuario que tenha o codigo igual a 2:\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+delete from tbUsuario\par
+where nIDUsuario = 2\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 8}
+${\footnote Query Join (Ansi)}
+K{\footnote Query Join (Ansi)}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Seleciona o nome do usuario e o nome do grupo do usuario executando uma uni\'e3o
+ entre as tabelas tbUsuario e tbGrupo:\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+select\par
+    tbUsuario.sNomeUsuario,\par
+    tbGrupo.sNomeGrupo\par
+from\par
+    tbUsuario, tbGrupo\par
+where     nIDUsuario =1\par
+and         tbUsuario.nIDGrupo =  tbGrupo.nIDGrupo \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 9}
+${\footnote Foreing Key (Chave Estrangeira)}
+K{\footnote Foreing Key Chave Estrangeira}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Relacionamento entre as tabelas \'e9
+ um importante recurso de um servidor de banco de dados\par
+Ele evita que dados incorretos sejam inseridos ou fiquem perdidos.\par
+No mySQL esse recurso s\'f3
+ \'e9
+ aceito em tabelas do tipo \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb InnoDB}{\v 11}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+. \par
+\par
+Vamos supor que n\'f3s
+ temos os seguintes tabelas:\par
+\par
+\par
+Uma com uma lista de nomes de empresas:\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+CREATE TABLE `tbempresa` (\par
+  `nIDEmpresa` int(2) NOT NULL auto_increment,\par
+  `sNomeEmpresa` varchar(40) default NULL,\par
+  PRIMARY KEY  (`nIDEmpresa`)\par
+) TYPE=InnoDB; \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Uma com uma lista de nomes de grupos de usuarios:\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+CREATE TABLE `tbgrupo` (\par
+  `nIDGrupo` int(2) NOT NULL auto_increment,\par
+  `nIDEmpresa` int(2) NOT NULL default '0',\par
+  `sNomeGrupo` varchar(16) NOT NULL default '',\par
+  PRIMARY KEY  (`nIDGrupo`,`nIDEmpresa`),\par
+  KEY `nIDEmpresa` (`nIDEmpresa`),\par
+  FOREIGN KEY (`nIDEmpresa`) REFERENCES `cadastro.tbempresa` (`nIDEmpresa`)\par
+) TYPE=InnoDB; \par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+Note que o campo tbGrupo.nIDEmpresa est\'e1
+ referenciado ao campo tbEmpresa.nIDEmpresa.\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Na tabela de Empresas temos os seguintes dados:\par
+\plain
+\f5
+\fs20
+\cf1
++------------+--------------+\par
+| nIDEmpresa | sNomeEmpresa |\par
++------------+--------------+\par
+|          1 | Universal    |\par
++------------+--------------+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+E na tabela de Grupos temos os eguintes dados:\par
+\plain
+\f5
+\fs20
+\cf1
+\b
++----------+------------+------------+\par
+| nIDGrupo | nIDEmpresa | sNomeGrupo |\par
++----------+------------+------------+\par
+|        1 |          1 | ADMIN      |\par
+|        2 |          1 | TESTE      |\par
+|        3 |          1 | COMPRAS    |\par
++----------+------------+------------+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Ent\'e3o
+ se tentar-mos excluir a empresa 1, o servidor retornar\'e1
+ um erro porque a empresa 1 est\'e1
+ sendo usada na tabela tbGrupo.\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+delete from tbEmpresa where nIDEmpresa = 1 \plain
+\f5
+\fs20
+\cf1
+\b
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+\par
+[localhost] ERROR 1217: N\'e3o
+ pode apagar uma linha pai: uma restri\'e7
+\'e3o
+ de chave estrangeira falhou\plain
+\f5
+\fs20
+\cf1
+\b
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Da mesma forma, se tentarmos inserir na tabela tbGrupos uma empresa com codigo 2 tamb\'e9m
+ retornara erro porque n\'e3o
+ existe empresa com c\'f3digo
+ 2.\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+insert into tbGrupo\par
+(nIDGrupo, nIDEmpresa, sNomeGrupo)\par
+values\par
+(4, 2, 'Teste')\par
+\plain
+\f5
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+[localhost] ERROR 1216: N\'e3o
+ pode acrescentar uma linha filha: uma restri\'e7
+\'e3o
+ de chave estrangeira falhou\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Saiba como utilizar esse recurso no sitema entrando em \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Editor de Relacionamentos}{\v 23}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f5
+\fs20
+\cf1
+\b
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 10}
+${\footnote mySQL}
+K{\footnote mySQL}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Usando o mySQL\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O mySQL\'ae
+ \'e9
+ um banco de dados que foi projetado para acima de tudo, ser r\'e1pido.
+\par
+Atualmente ele possui a possibilidade de trabalhar com tabelas do tipo \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb InnoDB}{\v 11}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+nos permitindo criar \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Foreing Key (Chave Estrangeira)}{\v 9}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+o que nos d\'e1
+ mais seguran\'e7a
+ em gerenciamento de dados.\par
+\par
+O mySQL \'e9
+ gratuito e roda em diversos sistemas operacionais.\par
+Pode ser encontrado em http://www.mysql.com .\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 11}
+${\footnote InnoDB}
+K{\footnote InnoDB}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Configurando o mySQL\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f6
+\fs20
+O MySQL pode utilizar um recurso muito interessante pouco usado.\par
+S\'e3o
+ as TRANSACTION! Ela nos permite desfazer uma opera\'e7
+\'e3o
+ usando o comando ROLLBACK.\par
+\par
+Veja como abilitar o acesso em seu servidor as tabelas do tipo 'InnoDB'.\par
+Essas tabelas s\'e3o
+ do tipo 'transactions safe tables';\par
+\par
+1) Abra o 'my.ini' que se encontra no diret\'f3rio
+ do seu Windows e na se\'e7
+\'e3o
+ '[mysqld]' adicione as seguintes linhas:\par
+\par
+innodb_data_home_dir=c:/mysql/innodb  innodb_log_group_home_dir=c:/mysql/innodb\par
+innodb_log_arch_dir=c:/mysql/innodb innodb_data_file_path = ibdata1:10M:autoextend innodb_flush_log_at_trx_commit=1 innodb_log_archive=0 set-variable=innodb_mirrored_log_groups=1 set-variable=innodb_log_files_in_group=3 set-variable=innodb_log_file_size=1M set-variable=innodb_log_buffer_size=1M set-variable=innodb_buffer_pool_size=16M set-variable=innodb_additional_mem_pool_size=2M set-variable=innodb_file_io_threads=4 set-variable=innodb_lock_wait_timeout=50\par
+\par
+Exemplo completo do \plain
+\f6
+\fs20
+\cf2
+
+
+{\uldb my.ini}{\v 12}\plain
+\f6
+\fs20
+
+ \plain
+\f6
+\fs20
+para Windows\'ae.
+\par
+Exemplo completo do \plain
+\f6
+\fs20
+\cf2
+
+
+{\uldb my.cnf}{\v 13}\plain
+\f6
+\fs20
+
+ \plain
+\f6
+\fs20
+para Linux.\par
+\par
+* Essas s\'e3o
+ configura\'e7
+\'f5es
+ minimalistas para ocupar pouco espa\'e7o
+ em disco.\par
+\par
+2) O innodb n\'e3o
+ cria pastas automaticamente, ent\'e3o
+ crie a pasta:\par
+c:\\mysql\\innodb \par
+\par
+No linux a pasta normalmente deveria ser criada em:\par
+\plain
+\f3
+\fs20
+/var/lib/mysql/ibdata\par
+Seta as permiss\'f5es
+ corretas para que o mysqld tenha acesso a essa pasta.\par
+\plain
+\f6
+\fs20
+\par
+\par
+3) Reinicie o servidor. \par
+Ele ir\'e1
+ criar os arquivos de log e do Banco de dados. \par
+\par
+4) Crie uma nova tabela do tipo innodb:\par
+\par
+EX:\par
+\plain
+\f6
+\fs20
+\b
+CREATE TABLE `tabela` ( `codigo` int(11) NOT NULL auto_increment, `teste` varchar(100) NOT NULL default '', PRIMARY KEY (`codigo`) ) TYPE=InnoDB;  \tab
+\plain
+\f6
+\fs20
+\par
+\par
+ou\par
+\par
+com o \plain
+\f6
+\fs20
+\cf2
+
+
+{\uldb mySQL Control Center}{\v 14}\plain
+\f6
+\fs20
+
+ \plain
+\f6
+\fs20
+ essa op\'e7
+\'e3o
+ deve estar na aba "Table Properties".\par
+\par
+\plain
+\f6
+\fs20
+\cf2
+
+
+\{bmc innodb.bmp\}
+\plain
+\f6
+\fs20
+
+ \plain
+\f6
+\fs20
+\par
+\par
+5) Agora basta testar! Tente os seguintes commandos:\par
+\par
+EX:\par
+\plain
+\f6
+\fs20
+\b
+SET AUTOCOMMIT=0; \par
+BEGIN;  \par
+insert into tabela (Codigo, teste) values (1,'teste');  \par
+ROLLBACK; \plain
+\f6
+\fs20
+\par
+\par
+Se o Rollback funcionou, nenhuma linha de inser\'e7
+\'e3o
+ foi desfeita.\par
+Para que a transa\'e7
+\'e3o
+ tenha efeito, basta mudar o \plain
+\f6
+\fs20
+\b
+'ROLLBACK;'\plain
+\f6
+\fs20
+ para \plain
+\f6
+\fs20
+\b
+'COMMIT;'\plain
+\f6
+\fs20
+ \par
+\par
+Agora al\'e9m
+ de transa\'e7
+\'f5es
+ (Transactions), ser\'e1
+ possivel tamb\'e9m
+ ser criadas \plain
+\f6
+\fs20
+\cf2
+
+
+{\uldb Foreing Key (Chave Estrangeira)}{\v 9}\plain
+\f6
+\fs20
+
+ \plain
+\f6
+\fs20
+ tornando o mySQL muito mais seguro em transa\'e7
+\'f5es.
+\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 12}
+${\footnote My.ini}
+K{\footnote My.ini}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+[mysqld]\par
+basedir=C:/MYSQL\par
+datadir=C:/MYSQL/data\par
+language=C:/MYSQL/share/portuguese\par
+innodb_data_file_path=ibdata:10M:autoextend\par
+innodb_data_home_dir=c:/mysql/innodb\par
+set-variable=innodb_mirrored_log_groups=1\par
+innodb_log_group_home_dir=c:/mysql/innodb\par
+set-variable=innodb_log_files_in_group=1\par
+set-variable=innodb_log_file_size=1M\par
+set-variable=innodb_log_buffer_size=8M\par
+innodb_flush_log_at_trx_commit=1\par
+innodb_log_arch_dir=c:/mysql/innodb\par
+innodb_log_archive=0\par
+set-variable=innodb_buffer_pool_size=80M\par
+set-variable=innodb_additional_mem_pool_size=10M\par
+set-variable=innodb_file_io_threads=4\par
+set-variable=innodb_lock_wait_timeout=50\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 13}
+${\footnote my.cnf}
+K{\footnote my.cnf}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+[mysql.server]\par
+datadir=/var/lib/mysql\par
+socket=/var/lib/mysql/mysql.sock\par
+\par
+[mysqladmin]\par
+socket=/var/lib/mysql/mysql.sock\par
+\par
+[mysqld]\par
+datadir=/var/lib/mysql/data\par
+socket=/var/lib/mysql/mysql.sock\par
+\par
+innodb_data_home_dir=/var/lib/mysql/ibdata\par
+innodb_log_group_home_dir=/var/lib/mysql/iblogs\par
+innodb_log_arch_dir=/var/lib/mysql/iblogs\par
+innodb_data_file_path=ibdata1:10M:autoextend\par
+innodb_flush_log_at_trx_commit=1\par
+innodb_log_archive=0\par
+set-variable=innodb_mirrored_log_groups=1\par
+set-variable=innodb_log_files_in_group=3\par
+set-variable=innodb_log_file_size=1M\par
+set-variable=innodb_log_buffer_size=1M\par
+set-variable=innodb_buffer_pool_size=16M\par
+set-variable=innodb_additional_mem_pool_size=2M\par
+set-variable=innodb_file_io_threads=4\par
+set-variable=innodb_lock_wait_timeout=50\par
+\par
+\par
+\par
+[mysql]\par
+socket=/var/lib/mysql/mysql.sock\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 14}
+${\footnote mySQL Control Center}
+K{\footnote mySQL Control Center}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O MySQL Control Center \'e9
+ uma ferramenta que ajuda gerenciar dados, tabelas, bancos de dados e usuarios no Banco de Dados MySQL.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc mysqlcc.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Costuma ser muito util para gerenciar os dados.\par
+Pode ser baixado gratuitamente do site http://www.mysql.com.\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 15}
+${\footnote DBDesigner}
+K{\footnote DBDesigner}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+DBDesigner \'e9
+ uma ferramenta para modelagem de um banco dados.\par
+Possui uma boa compatibilidade com mySQL e \'e9
+ gratuito.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dbdesigner.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+O DBDesigner pode facilmente ser encontrado no site http://www.fabforce.net.\par
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 16}
+${\footnote Interbase}
+K{\footnote Interbase}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Usando Interbase\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O Interbase\'ae
+ \'e9
+ um poderoso banco de dados relacional criado pela Borland.\par
+\par
+Possui todos os recursos exigidos por um banco de dados relacional.\par
+Atualmente esta disponivel para as plataformas MS Windows\'ae,
+ Solaris e Linux.\par
+\par
+Voc\'ea
+ pode obter informa\'e7
+\'f5es
+ mais completas em http://www.borland.com/interbase/ .\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 17}
+${\footnote Firebird}
+K{\footnote Firebird}
+\keepn\b0\i0\cf0
+\plain
+\f3
+\fs32
+Usando Firebird\plain
+\f3
+\fs20
+\par
+\pard
+\b0\i0
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Firebird\'ae
+ apesar apesar de ser um banco de dados gratuito ele apresenta exelentes recursos e uma otima compatibilidade com com banco de dados \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Interbase}{\v 16}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+\par
+Se tornando ent\'e3o
+ uma excelente sa\'edda
+ para empresas em expans\'e3o.
+\par
+\par
+Voc\'ea
+ pode saber mais sobre o Firebird em http://firebird.sourceforge.net .\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 18}
+${\footnote Generators e Triggers}
+K{\footnote Generators e Triggers}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Diferente de outros servidores de bancos de dados, o Interbase\'ae
+ n\'e3o
+ possui um campo auto-increment (sequenciador automatico). Mas ele possui um recurso bem flexivel chamado Generator.\par
+\par
+Os Generators nos devolve qual o pr\'f3ximo
+ valor a ser utilizado\par
+\par
+\par
+Exemplo de como criar um Generator para o Interbase\'ae:
+\par
+\par
+\plain
+\f7
+\fs20
+\cf1
+\b
+CREATE GENERATOR EMPNO_GEN; \plain
+\f7
+\fs20
+\cf1
+\par
+\plain
+\f7
+\fs20
+\cf1
+\b
+COMMIT; \plain
+\f7
+\fs20
+\cf1
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Para que um campo de uma tabela uma tabela trabalhe de acordo com o auto-increment eh nescess\'e1rio
+ criar um Trigger(Gatilho) para que o valor automatico seja adicionado ao campo desejado\par
+\plain
+\f7
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf1
+Exemplo de como criar uma Trigger para o Interbase\'ae:
+\par
+\par
+\plain
+\f7
+\fs20
+\cf1
+\b
+CREATE TRIGGER CREATE_EMPNO FOR EMPLOYEES \par
+BEFORE INSERT POSITION 0 AS \par
+BEGIN \par
+   NEW.EMPNO = GEN_ID(EMPNO_GEN, 1); \par
+END \plain
+\f8
+\fs24
+\b
+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 19}
+${\footnote Stored Procedures}
+K{\footnote Stored Procedures}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Stored Procedures (Procedimentos Armazenados) permite executar diversas consultas de uma s\'f3
+ vez enviando somente um comando.\par
+\par
+Veja um exemplo simples de Stored Procedure do Interbase\'ae:
+\par
+\par
+\plain
+\f7
+\fs20
+\cf1
+\b
+CREATE PROCEDURE GET_EMP_PROJ (\par
+      EMP_NO SMALLINT\par
+) \par
+\par
+RETURNS (\par
+         PROJ_ID VARCHAR(20)\par
+ ) AS \par
+\par
+BEGIN \par
+   FOR \par
+     SELECT \par
+        PROJ_ID \par
+     FROM \par
+        EMPLOYEE_PROJECT \par
+     WHERE \par
+         EMP_NO = :emp_no \par
+      INTO \par
+         :proj_id \par
+   DO \par
+     SUSPEND; \par
+END!! \plain
+\f6
+\fs24
+\b
+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 22}
+${\footnote View}
+K{\footnote View}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+View nos permite visualisar um conjunto de dados de uma ou mais tabelas de forma transparente;\par
+\par
+Exemplo de como criar uma View no Interbase\'ae:
+\par
+\par
+\plain
+\f7
+\fs20
+\cf1
+\b
+CREATE VIEW SNOW_LINE (\par
+               CITY, \par
+               STATE, \par
+               SNOW_ALTITUDE\par
+) AS \par
+\par
+SELECT \par
+   CITY, \par
+   STATE, \par
+   ALTITUDE \par
+\par
+FROM \par
+  CITIES \par
+\par
+WHERE \par
+  ALTITUDE > 5000; \plain
+\f6
+\fs24
+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 20}
+${\footnote ERWIN}
+K{\footnote ERWIN}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+ERWIN \'ae
+  Da Computer Associates \'e9
+ a mais completa ferramenta de modelagem de dados existente.\par
+Ele \'e9
+ compativel com diversos bancos de Dados como Oracle\'ae,
+ MS SQL Server\'ae,
+ Informix\'ae
+ e outros.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc ERWIN.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Voc\'ea
+ pode obter mais informa\'e7
+\'f5es
+ sobre esse produto em http://www.ca.com .\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 21}
+${\footnote IBExpert}
+K{\footnote IBExpert}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O IBExpert\'ae
+ eh uma das melhores ferramentas para gerenciamento de dados do Interbase existentes no mercado.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc IBExpert.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Para obter mais informa\'e7
+\'f5es
+ sobre o IBExpert entre no site http://www.ibexpert.com/ .\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 23}
+${\footnote Editor de Relacionamentos}
+K{\footnote Editor de Relacionamentos}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O primeiro passo antes de se criar um formulario devemos selecionar em quais tabelas se pretende armazenar os dados.\par
+\par
+Quando os dados a serem preenchidos pertencem a mais de uma tabela, \'e9
+ obrigatorio que seja apontado qual campo conecta uma tabela a outra.\par
+\par
+Veja esse exemplo.\par
+\par
+Quando pretendemos criar um cadastro de clientes no qual, cada cliente pode ou n\'e3o
+ ter um determinado numero de dependentes.\par
+A quantidade de dependentes vai variar muito de pessoa para pessoa.\par
+\par
+Nesse caso, n\'f3s
+ temos que criar duas tabelas. A tabela tbCliente e a tabela tbDependente.\par
+Na tabela de Clientes colocaremos todos os dados do Cliente como Endereco, Telefone, etc.\par
+\par
+Exemplo de campos da tabela Cliente:\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+CREATE TABLE tbCliente (\par
+  nCodCliente INTEGER(11) NOT NULL AUTO_INCREMENT,\par
+  nIDEmpresa INTEGER(2) NOT NULL,\par
+  nIDUF INTEGER(2) NOT NULL,\par
+  nIDPais INTEGER(2) NOT NULL,\par
+  sNomeCliente VARCHAR(70) NOT NULL,\par
+  sApelido VARCHAR(20) NULL,\par
+  sEndereco VARCHAR(90) NULL DEFAULT 'Novo Endereco',\par
+  sBairro VARCHAR(30) NULL DEFAULT 'Novo Bairro',\par
+  sCidade VARCHAR(30) NULL DEFAULT 'Nova Cidade',\par
+  sEMail VARCHAR(50) NULL,\par
+  sTelefone VARCHAR(19) NOT NULL,\par
+  sTelefoneComercial VARCHAR(19) NOT NULL,\par
+  sCEP VARCHAR(9) NOT NULL,\par
+  dNascimento DATETIME NULL,\par
+  nCor INTEGER(2) NULL,\par
+  bFumante ENUM("N","S") NULL DEFAULT 'N',\par
+  bCasal ENUM("N","S") NULL DEFAULT 'Y',\par
+  sHistorico TEXT NULL,\par
+  PRIMARY KEY(nCodCliente, nIDEmpresa),\par
+  INDEX(nIDPais), \par
+  FOREIGN KEY(nIDPais)\par
+    REFERENCES tbPais(nIDPais)\par
+      ON DELETE RESTRICT\par
+      ON UPDATE RESTRICT,\par
+  INDEX(nIDUF), \par
+  FOREIGN KEY(nIDUF)\par
+    REFERENCES tbUF(nIDUF)\par
+      ON DELETE RESTRICT\par
+      ON UPDATE RESTRICT,\par
+  INDEX(nIDEmpresa), \par
+  FOREIGN KEY(nIDEmpresa)\par
+    REFERENCES tbEmpresa(nIDEmpresa)\par
+      ON DELETE RESTRICT\par
+      ON UPDATE RESTRICT\par
+)\par
+TYPE=InnoDB;\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+Note que os Campos nIDPais, nIDUF e nIDEmpresa (Corporate Edition) pertencem a tabelas externas usando Chave Estrangeira ou Foreing Key.\par
+\par
+Note tamb\'e9m
+ que o campo nCodCliente \'e9
+ o campo responsavel pela localiza\'e7
+\'e3o
+ do dado.\par
+Como ele \'e9
+ do tipo AUTO_INCREMENT nunca ter\'e1
+ uma campo repetido igual.\plain
+\f3
+\fs20
+\cf1
+ \par
+\par
+Na Tabela de Dependentes precisamos somente armazenar alguns dados b\'e1sicos.
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+CREATE TABLE tbDependente (\par
+  nCodDependente INTEGER(3) NOT NULL AUTO_INCREMENT,\par
+  nIDEmpresa INTEGER(2) NOT NULL,\par
+  nCodCliente INTEGER(11) NOT NULL,\par
+  sNomeDependente VARCHAR(70) NOT NULL,\par
+  dNascimento DATE NULL,\par
+  PRIMARY KEY(nCodDependente, nIDEmpresa, nCodCliente),\par
+  INDEX(nCodCliente, nIDEmpresa), \par
+  FOREIGN KEY(nCodCliente, nIDEmpresa)\par
+    REFERENCES tbCliente(nCodCliente, nIDEmpresa)\par
+      ON DELETE RESTRICT\par
+      ON DELETE RESTRICT\par
+)\par
+TYPE=InnoDB;\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+Note que os campos nCodCliente e nIDEmpresa est\'e3o
+ ligados a tabela de Clientes.\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Com as tabelas criadas voc\'ea
+ precisa adiciona-las no editor de relacionamentos e apontar qual o Campo Chave desse modulo.\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc relation.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+\i
+
+ \plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+1)Para criar esse relacionamento clique no campo nCodCliente da tabela tbCliente para seleciona-lo.\par
+2)V\'e1
+ at\'e9
+ a tabela tbDependente e clique no campo nCodCliente.\par
+3)Arraste o campo nCodCliente da tbDependente at\'e9
+ a tabela tbCliente (Drag and Drop).\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Os dados da tabela filha (tbDependente) deve ser salvos salvo em um \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Grid}{\v 36}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\plain
+\f3
+\fs20
+\cf1
+Agora basta selecionar o campo Chave e a consulta para gerar um novo codigo no \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Editor de Chave}{\v 25}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 25}
+${\footnote Editor Chave}
+K{\footnote Editor Chave}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+O Editor de chave \'e9
+ o \'faltimo
+ passo antes de se gerar o formulario.\par
+Nele voc\'ea
+ deve preencher todos os requisitos pedidos.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc ChaveEditor.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+O primeiro item \'e9
+ o nome que ele vai ter no menu.\par
+Tabela chave indica qual a tabela chave ou tabela pai.\par
+\par
+Se for levado em conta as tabelas tbCliente e tbDependente no topico \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Editor de Relacionamentos}{\v 23}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+, a tabela pai seria a tabela tbCliente, pois \'e9
+ dela que vir\'e1
+ o campo chave nCodCliente para a tabela tbDependente.\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 26}
+${\footnote Editor de Formularios}
+K{\footnote Editor de Formularios}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+A tela de edi\'e7
+\'e3o
+ funciona de forma simples.\par
+\par
+Aqui voc\'ea
+ precisa adicionar o componente certo para cada campo a ser preenchido.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc FormEditor.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Para isso voc\'ea
+ precisa clicar em um componente na barra de componentes e clicar no formul\'e1rio.
+\par
+O Componente ir\'e1
+ ser inserido no formulario automaticamente.\par
+\par
+Podemos separar os componentes em 4 niveis de complexidade:\par
+\par
+O primeir grupo possui os componentes de f\'e1cil
+ configura\'e7
+\'e3o:
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb TextEdit}{\v 27}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ para preenchimento de textos.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb IntegerEdit}{\v 28}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ para preenchimentos de numeros inteiros.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb FloatEdit}{\v 29}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+para preenchimento de numeros com casa decimais.\par
+\par
+O segundo grupo tamb\'e9m
+ \'e9
+ falcil de se configurar por\'e9m
+ ele possui recursos que facilitam o preenchimento pelo usuario.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb CalcEdit}{\v 30}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ \'e9
+ um FloatEdit com uma calculadora embutida.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb DatePicker}{\v 31}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ para preenchimento de datas, ele possui um calend\'e1rio
+ embutido.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb CheckBox}{\v 32}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ serve para preenchimentos de campos que devem ser setados como verdadeiro ou falso.\par
+\par
+O Terceiro grupo j\'e1
+ pede um conhecimento um pouco mais avan\'e7ado.
+\par
+\'c9
+ preciso conhecer um pouco sobre SQL do banco de dados utilizado para que ele funcione.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb DBLabel}{\v 33}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ se auto-preenche com um texto vindo de uma consulta que atualizado quando o valor de um outro componente \'e9
+ alterado.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb ComboBox}{\v 34}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ \'e9
+ uma caixa de sele\'e7
+\'e3o
+ quando se quer selecionar um item de uma lista. A lista \'e9
+ obtida atrav\'e9s
+ de uma consulta.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb btnQueryEdit}{\v 35}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+  \'e9
+ util para obter-mos um ou mais dados de uma tabela para preencher-mos um ou mais componentes em meio a um grande volume de dados.\par
+\par
+\par
+\par
+E no \'faltimo
+ grupo temos o grid.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Grid}{\v 36}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ deve ser adicionado quando \'e9
+ nescess\'e1rio
+ o preenchermos dos dados de tabelas filhas.\par
+\par
+Em cada componente devemos setar suas propriedades para que o formul\'e1rio
+ funcione corretamente.\par
+Para isso, basta clicar com o bot\'e3o
+ direito sobre o componente e clicar em propriedades.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc propriedades.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 27}
+${\footnote TextEdit}
+K{\footnote TextEdit}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc numedit1.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ O TextEdit \'e9
+ uma caixa de preenchimento simples de texto.\par
+Use esse componente para preenchimento de dados como Nomes, Endere\'e7os,
+ Bairros, etc.\par
+\par
+Esse componetne pertence ao grupo que possui \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Propriedades Simples}{\v 37}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 28}
+${\footnote IntegerEdit}
+K{\footnote IntegerEdit}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc numedit2.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ IntegerEdit \'e9
+ util para preenchimento de dados que obrigatoriamente precisam ser um numero inteiro.\par
+Use esse componente em campos como n\'famero
+ de uma casa, quantidade de um produto, c\'f3digo,
+ etc.\par
+\par
+Esse componetne pertence ao grupo que possui \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Propriedades Simples}{\v 37}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 29}
+${\footnote FloatEdit}
+K{\footnote FloatEdit}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc numedit3.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ FloatEdit \'e9
+ um componente que permite o preenchimento de n\'fameros
+ podem ou n\'e3o
+ possuir casas decimais.\par
+Ele usado em preenchimento de campos como peso, valor, altura, etc.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Esse componetne pertence ao grupo que possui \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Propriedades Simples}{\v 37}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+. \plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 30}
+${\footnote CalcEdit}
+K{\footnote CalcEdit}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc calc.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+CalcEdit \'e9
+ um componente similar ao FloatEdit com a vantagem de possuir uma calculadora embutida.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc calc2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Esse componente \'e9
+ focado em campos que exigem calculos feitos pelo usuario como taxa de imposto.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Esse componetne pertence ao grupo que possui \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Propriedades Simples}{\v 37}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 31}
+${\footnote DatePicker}
+K{\footnote DatePicker}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc datepicker.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ Datepicker \'e9
+ um componente que vem com um calendario embutido.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc datepicker2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Ele \'e9
+ usado em tudo aquilo relacionado a datas como prazos, vencimentos, data de valisdades etc.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Esse componetne pertence ao grupo que possui \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Propriedades Simples}{\v 37}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 32}
+${\footnote CheckBox}
+K{\footnote CheckBox}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc checkbox.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ CheckBox \'e9
+ um componente relativamente simples de ser configurado.\par
+\par
+Esse componente \'e9
+ usado em campos como Pago, Vencido, Cancelado, etc.\par
+\'c9
+ preciso selecionar a Tabela e o Campo que o componente ir\'e1
+ salvar os dados,  o nome do componente e o Titulo.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc checkbox2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Apesar de simples, \'e9
+ um componente de muita utilidade e muito r\'e1pido.
+\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc checkbox3.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+\i
+
+ \plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 33}
+${\footnote DBLabel}
+K{\footnote DBLabel}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dblabel.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ DBLabel em um componente \'fatil
+ para exibir um determinado coment\'e1rio
+ de um componente que esteja exibindo um c\'f3digo.
+\par
+\par
+\'c9
+ preciso prencher a consulta SQL que ser\'e1
+ disparada quando o componente selecionado for alterado pelo usu\'e1rio.
+\par
+Por exemplo:\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+select \par
+\par
+   sNomeProduto \par
+\par
+from  tbProduto\par
+\par
+where \par
+\par
+   nIDProduto = :sCampoBusca\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dblabel2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+\b
+
+ \plain
+\f3
+\fs20
+\cf1
+\b
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+Nesse exemplo selecionamos o nome do produto que tenha o c\'f3digo
+ igual a :sCampoBusca.\par
+:sCampoBusca \'e9
+ o c\'f3digo
+ que ser\'e1
+ obtido do componente btnqProduto.\par
+\par
+Ent\'e3o
+ quando o componente btnqProduto for alterado, a busca ser\'e1
+ disparada e o dbLabel ser\'e1
+ preenchido com o nome do produto (sNomeProduto) que tenha o c\'f3digo
+ iqual a btnqProduto.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dblabel3.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 34}
+${\footnote ComboBox}
+K{\footnote ComboBox}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc combobox.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ ComboBox \'e9
+ um componente usado para ser que o usuario possa selecionar um dos items da lista.\par
+Ele normalmente \'e9
+ usado em Campos que tenha Estado, Pa\'eds,
+ etc.\par
+\par
+Essa lista \'e9
+ obtida trav\'e9s
+ de uma consulta SQL que \'e9
+ executada ao iniciar o formulario.\par
+O combobox precisa de dois campos para que ele funcione corretamente.\par
+\par
+O primeiro campo \'e9
+ o c\'f3digo
+ do item e o segundo \'e9
+ a descri\'e7
+\'e3o.
+\par
+Exemplo:\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+select nIdUF, sNomeUF from tbUF\par
+\plain
+\f3
+\fs20
+\cf1
+\par
+Nesse exemplo a lista ser\'e1
+ preenchida com o nome do estado e na tabela pai ser\'e1
+ gravado o c\'f3digo
+ da UF.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc combobox2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Assim como os componentes de propriedades simples, \'e9
+ preciso selecionar a Tabela e o Campo onde o c\'f3digo
+ obtido ser\'e1
+ gravado, o Nome e o T\'edtulo
+ para identifica\'e7
+\'e3o.
+\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc combobox3.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 35}
+${\footnote btnQueryEdit}
+K{\footnote btnQueryEdit}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ btnQueryEdit \'e9
+ um dos componentes mais complexos mais de extrema utilidade.\par
+\par
+Quando a lista de items for muito grande, e queremos obter somente um dado especifico, usamos esse componente. Ele tem um bot\'e3o
+ embutido que quando clicado, aparece uma caixa de dialogo para que o usuario fa\'e7a
+ uma busca. e o item selecionado preenche um ou mais componentes do formul\'e1rio.
+\par
+\par
+Como os outros componentes, \'e9
+ nescess\'e1rio
+ que voc\'ea
+ selecione a tabela e o campo onde ser\'e1
+ salvo os dados, o nome do componente e o t\'edtulo.
+\par
+\par
+Ent\'e3o
+ preencheremos as consultas:\par
+\plain
+\f3
+\fs20
+\cf1
+\b
+CEP:select sIDCep, sEndereco, sBairro, sCidade from tbCep where sIDCep = :Campo_Busca\par
+\par
+Endereco:select sIDCep, sEndereco, sBairro, sCidade from tbCep where sEndereco like :Campo_Busca\plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+Note que no come\'e7o
+ das consultas possui os t\'edtulos
+ das consultas CEP e Endereco separada por dois pontos ":".\par
+\plain
+\f3
+\fs20
+\cf1
+Esses titulos ser\'e3o
+ colocados em um combo de uma tela de dialogo que aparecer\'e1
+ quando o usuario clicar no bot\'e3o
+ de busca.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Na primeira consulta ser\'e1
+ selecionado os campos sIDCep, sEndereco, sBairro, sCidade que sIDCep seja igual a :CampoBusca.\par
+Na segunda ser\'e1
+ selecionado os mesmos campos mas com a condicao que ser\'e1
+ localizada pelo endere\'e7o.
+\par
+\par
+:CampoBusca \'e9
+ um valor que o usuario ir\'e1
+ preencher para localizar os dados.\par
+\par
+Por exemplo:\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit3.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Nesse caso a busca pelo CEP que tinha como :CampoBusca o valor "04689150".\par
+E por fim devemos preencher a lista de componentes.\par
+\par
+Essa lista \'e9
+ onde ser\'e1
+ preenchido com dados localizados pela consulta do usuario.\par
+Sendo que os componentes devem estar na ordem dos campos.\par
+\par
+Exemplo:\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit4.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Nesse exemplo acima os seguintes campos preencher\'e1
+ os seguintes componentes:\par
+\par
+Campo\tab
+\tab
+\tab
+Componente\par
+\par
+sIDCep\tab
+\tab
+->\tab
+btnqCEP \par
+sEndereco\tab
+->\tab
+edtEndereco\par
+sBairro\tab
+\tab
+->\tab
+edtBairro\par
+sCidade\tab
+\tab
+->\tab
+edtCidade\par
+\par
+Veja o resultado:\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit5.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Mas n\'e3o
+ \'e9
+ nescess\'e1rio
+ que todos os campos sejam direcionados para um componente como nesse outro exemplo:\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit6.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Aqui iremos preencher somente o pr\'f3prio
+ btnqProduto.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc btnqedit7.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Por\'e9m
+ um \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb DBLabel}{\v 33}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ tinha sido adicionado para ser auto preenchido assim que o valor do btnqProduto for alterado.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\par
+\par
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 36}
+${\footnote Grid}
+K{\footnote Grid}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dbgrid.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+ Grid deve ser adicionado quando \'e9
+ nescess\'e1rio
+ o preenchermos dos dados de tabelas filhas.\par
+\par
+Primeiro deve-se dar um nome ao componente.\par
+Em seguida, deve-se selecionar qual tabela filha o Grid gravar\'e1
+ os dados. Ent\'e3o
+ clique em OK.\par
+Assim que isso for feito, os campos da tabela ir\'e1
+ aparecer.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dbgrid2.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Em cada campo podemos sertar o t\'edtulo,
+ a \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb mascara}{\v 38}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+, se o campo \'e9
+ vis\'edvel
+ para o usu\'e1rio
+ e no final se ele \'e9
+ auto-sequencial.\par
+O item auto-sequencial s\'f3
+ deve ser em campos da pr\'f3pria
+ tabela filha.\par
+\par
+N\'e3o
+ \'e9
+ nescess\'e1rio
+ alterar nada no campo de liga\'e7
+\'e3o
+ com a tabela pai, visto q isso j\'e1
+ foi ligado no \plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Editor de Relacionamentos}{\v 23}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+.\par
+Mas \'e9
+ recomendado deixa-lo invisivel. Assim como o campo relacionado ao c\'f3digo
+ da empresa (Corporate Editon).\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc dbgrid3.BMP\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 37}
+${\footnote Propriedades Simples}
+K{\footnote Propriedades Simples}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+A tela de de propriedades simples muito f\'e1cil
+ de ser configurada.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc propriedadessimples.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Em primeiro lugar, deve-se selecionar qual tabela aquele campo pertence e logo em seguida o campo.\par
+\par
+Depois \'e9
+ nescess\'e1rio
+ que se de um nome a esse componente. Pode ser qualquer nome, mas coloque um nome que fique f\'e1cil
+ de lembrar a que campo ele pertence.\par
+\par
+Ent\'e3o
+ selecione o Titulo de indentifica\'e7
+\'e3o
+ para o usu\'e1rio.
+ Esse titulo \'e9
+ o que ficar\'e1
+ escrito no texto acima do componente.\par
+\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+{\uldb Mascara}{\v 38}\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+n\'e3o
+ \'e9
+ um campo obrigat\'f3rio
+ de ser preenchido, mais pode ser util para se colocar um formado padr\'e3o
+ para entrada de dados.\par
+\par
+Por fim, temos tres items para serem ou n\'e3o
+ checados.\par
+\par
+O primeiro indica se pode ser inserido dados em branco (campo obrigat\'f3rio).
+\par
+Caso o campo obrigat\'f3rio
+ n\'e3o
+ esteja preenchido, o componente fica em vermelho.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc campoobrigatorio.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+Mudando de cor assim que preenchido.\par
+\plain
+\f3
+\fs20
+\cf2
+
+
+\{bmc campoobrigatorio2.bmp\}
+\plain
+\f3
+\fs20
+\cf1
+
+ \plain
+\f3
+\fs20
+\cf1
+\par
+\par
+O segundo indica se o usuario pode entrar com dados ou o componente \'e9
+ somente para leitura.\par
+O ultimo indica se o T\'edtulo
+ do componente deve ou n\'e3o
+ aparecer.\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+#{\footnote 38}
+${\footnote Mask (Mascara)}
+K{\footnote Mask (Mascara)}
+\b0\i0\cf0
+\pard
+\plain
+\f3
+\fs20
+\cf1
+Mascara \'e9
+ um recurso que permite formatar os dados digitados pelo usuario.\par
+Veja alguns exemplos comuns de m\'e1scara:
+\par
+\par
+Data:\tab
+\tab
+99/99/99;1\par
+Telefone:\tab
+(99)9999-9999;1\par
+\plain
+\f3
+\fs20
+\cf1
+\i
+\par
+\b0\i0
+\pard
+
+\page
+
+}

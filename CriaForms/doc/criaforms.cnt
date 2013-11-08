@@ -1,0 +1,41 @@
+:Base criaforms.hlp
+1 Banco de dados
+2 Informacões basicas
+3 O que é um servidor de banco de dados=1
+3 O que são banco de dados=2
+3 O que são tabelas=3
+3 O que são Querys (Consultas)=4
+3 O que são Views=22
+3 O que são Generators=18
+3 O que são Triggers=18
+3 O que são Stored Procedures=19
+3 O que são Foreing Keys (Chaves Estrangeiras)=9
+2 MySQL
+3 Usando mySQL=10
+3 Configurando MySQL=11
+3 mySQL Control Center=14
+3 DB Designer=15
+3 Tabelas do tipo InnoDB=11
+2 Interbase/Firebird
+3 Um pouco sobre o Interbase=16
+3 Um pouco sobre o Firebird=17
+3 IB Expert=21
+3 ERWIN=20
+1 Editor de Formularios
+2 Editor de Relacionamentos=23
+2 Editor Chave=25
+2 Editor de Formularios=26
+1 Componentes
+2 TextEdit=27
+2 IntegerEdit=28
+2 FloatEdit=29
+2 CalcEdit=30
+2 DatePicker=31
+2 CheckBox=32
+2 DBLabel=33
+2 ComboBox=34
+2 btnQueryEdit=35
+2 Grid=36
+2 Propriedades
+3 Propriedades Simples=37
+3 Mascara=38

@@ -1,0 +1,1662 @@
+JBHFILEVERSION
+3
+criaforms
+16777215
+8454143
+0
+0
+600
+400
+40
+Banco de dados
+Banco de dados
+
+TRUE
+	Informacões basicas
+Informacões basicas
+
+TRUE
+		O que é um servidor de banco de dados
+O que é um servidor de banco de dados
+Servidor de Banco de Dados
+FALSE
+		O que são banco de dados
+O que são banco de dados
+Banco de Dados
+FALSE
+		O que são tabelas
+O que são tabelas
+Tabelas
+FALSE
+		O que são Querys (Consultas)
+O que são Querys (Consultas)
+Consulta
+FALSE
+		O que são Views
+O que são Views
+View
+FALSE
+		O que são Generators
+O que são Generators
+Generators e Triggers
+FALSE
+		O que são Triggers
+O que são Triggers
+Generators e Triggers
+FALSE
+		O que são Stored Procedures
+O que são Stored Procedures
+Stored Procedures
+FALSE
+		O que são Foreing Keys (Chaves Estrangeiras)
+O que são Foreing Keys (Chaves Estrangeiras)
+Foreing Key (Chave Estrangeira)
+FALSE
+	MySQL
+MySQL
+
+TRUE
+		Usando mySQL
+Usando mySQL
+mySQL
+FALSE
+		Configurando MySQL
+Configurando MySQL
+InnoDB
+FALSE
+		mySQL Control Center
+mySQL Control Center
+mySQL Control Center
+FALSE
+		DB Designer
+DB Designer
+DBDesigner
+FALSE
+		Tabelas do tipo InnoDB
+Tabelas do tipo InnoDB
+InnoDB
+FALSE
+	Interbase/Firebird
+Interbase/Firebird
+
+TRUE
+		Um pouco sobre o Interbase
+Um pouco sobre o Interbase
+Interbase
+FALSE
+		Um pouco sobre o Firebird
+Um pouco sobre o Firebird
+Firebird
+FALSE
+		IB Expert
+IB Expert
+IBExpert
+FALSE
+		ERWIN
+ERWIN
+ERWIN
+FALSE
+Editor de Formularios
+Editor de Formularios
+
+TRUE
+	Editor de Relacionamentos
+Editor de Relacionamentos
+Editor de Relacionamentos
+FALSE
+	Editor Chave
+Editor Chave
+Editor Chave
+FALSE
+	Editor de Formularios
+Editor de Formularios
+Editor de Formularios
+FALSE
+Componentes
+Componentes
+
+TRUE
+	TextEdit
+TextEdit
+TextEdit
+FALSE
+	IntegerEdit
+IntegerEdit
+IntegerEdit
+FALSE
+	FloatEdit
+FloatEdit
+FloatEdit
+FALSE
+	CalcEdit
+CalcEdit
+CalcEdit
+FALSE
+	DatePicker
+DatePicker
+DatePicker
+FALSE
+	CheckBox
+CheckBox
+CheckBox
+FALSE
+	DBLabel
+DBLabel
+DBLabel
+FALSE
+	ComboBox
+ComboBox
+ComboBox
+FALSE
+	btnQueryEdit
+btnQueryEdit
+btnQueryEdit
+FALSE
+	Grid
+Grid
+Grid
+FALSE
+	Propriedades
+Propriedades
+
+TRUE
+		Propriedades Simples
+Propriedades Simples
+Propriedades Simples
+FALSE
+		Mascara
+Mascara
+Mask (Mascara)
+FALSE
+38
+Inicio
+0
+0
+Inicio
+Inicio
+8
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\qc\plain\f3\fs32\cf0\b Supernova Consultoria em Sistemas
+\par \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect #splash.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par \plain\f3\fs20\cf0\b http://www.supernova-ti.com.br\plain\f3\fs20\cf0 
+\par }
+0
+0
+1
+splash.bmp
+Servidor de Banco de Dados
+1
+1
+Servidor de Banco de Dados
+Servidor de Banco de Dados
+32
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Para que os dados sejam armazenados, eh preciso que voc\'ea tenha um servidor de banco de dados.
+\par Servidor de Banco gerenciam as conex\'f5es entre uma ou mais maquinas. 
+\par Normalmente eles seguem o conceito de Cliente/Servidor.
+\par 
+\par O Cliente envia pedidos de dados chamados \plain\f3\fs20\cf1\ul\protect ##Query##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 (Consulta).
+\par O Servidor se encarrega de armazenar e proteger todos os dados e executar a \plain\f3\fs20\cf1\ul\protect ##Query##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 procurando, inserindo ou apagando os dados em uma dentro de um \plain\f3\fs20\cf1\ul\protect ##Banco de Dados##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par 
+\par Existem varios bancos de dados.
+\par Cada qual com um com seus recursos e algumas vezes limita\'e7\'f5es.
+\par 
+\par Alguns dos Bancos de Dados Conhecidos s\'e3o:
+\par \plain\f3\fs20\cf1\ul\protect ##mySQL##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##InterBase##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0      
+\par \plain\f3\fs20\cf1\ul\protect ##Firebird##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Fazendo um breve comparativo entre os bancos de dados citados o mySQL \'e9 gratuito e muito r\'e1pido, por\'e9m n\'e3o possui alguns recursos como \plain\f3\fs20\cf1\ul\protect ##View##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  e \plain\f3\fs20\cf1\ul\protect ##Stored Procedures##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 ainda est\'e1 em desenvolvimento.
+\par 
+\par O Firebird \'e9 outro banco de dados gratuito.Possui poderosos recursos com \plain\f3\fs20\cf1\ul\protect ##View##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 ,  \plain\f3\fs20\cf1\ul\protect ##Stored Procedures##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  e um recurso de contagem automatica muito flexivel chamado \plain\f3\fs20\cf1\ul\protect ##Generator##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par Os Generators devem trabalhar em conjunto com as \plain\f3\fs20\cf1\ul\protect ##Trigger##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par Por ter mais recursos, ele \'e9 um pouco mais lento.
+\par 
+\par O Interbase possui todos os recursos do Firebird. A diferen\'e7a \'e9 que o Interbase \'e9 pago, mais possui a vantagem de Suporte T\'e9cnico especializado.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f2\fs32 Funcionamento do Banco de Dados\plain\f4\fs20 
+\par }
+10
+mySQL
+0
+mySQL
+mySQL
+FALSE
+InterBase
+0
+Interbase
+InterBase
+FALSE
+Firebird
+0
+Firebird
+Firebird
+FALSE
+Tabela
+0
+Tabelas
+Tabela
+FALSE
+Query
+0
+Consulta
+Query
+FALSE
+Banco de Dados
+0
+Banco de Dados
+Banco de Dados
+FALSE
+Generator
+0
+Generators e Triggers
+Generator
+FALSE
+Stored Procedures
+0
+Stored Procedures
+Stored Procedures
+FALSE
+View
+0
+View
+View
+FALSE
+Trigger
+0
+Generators e Triggers
+Trigger
+FALSE
+0
+Banco de Dados
+1
+2
+Banco de Dados
+Banco de Dados
+22
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Um Servidor de banco de dados de gerenciam as conex\'f5es e dados em diversos Bancos de Dados dentro dele.
+\par 
+\par Dentro de um banco de dados se encontram, por exemplo as \plain\f3\fs20\cf1\ul\protect ##Tabelas##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par 
+\par Existem diversas ferramentas que auxiliam a manuten\'e7\'e3o e o gerenciamento do banco.
+\par Para o mySQL as mais conhecidas s\'e3o:
+\par \plain\f3\fs20\cf1\ul\protect ##mySQL Control Center##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##DBDesigner##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Ambos Gratuitos para MS Windows\'ae e Linux .
+\par 
+\par Para Interbase e Firebird as mais conhecidas s\'e3o:
+\par \plain\f3\fs20\cf1\ul\protect ##ERWIN##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##IBExpert##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Ambos pagos.
+\par 
+\par 
+\par 
+\par }
+0
+5
+Tabelas
+0
+Tabelas
+Tabelas
+FALSE
+mySQL Control Center
+0
+mySQL Control Center
+mySQL Control Center
+FALSE
+DBDesigner
+0
+DBDesigner
+DBDesigner
+FALSE
+ERWIN
+0
+ERWIN
+ERWIN
+FALSE
+IBExpert
+0
+IBexpert
+IBExpert
+FALSE
+0
+Tabelas
+1
+3
+Tabelas
+Tabelas
+7
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Tabelas s\'e3o estruturas similares as conhecidas planilhas de dados.
+\par 
+\par Visualmente faladon s\'e3o diversas colunas com linhas diversos tipos de dados.
+\par Os nomes dos tipos de dados podem mudar de acordo com o banco de dados que voc\'ea ir\'e1 usar.
+\par }
+0
+0
+0
+Consulta
+1
+4
+Consulta (Query)
+Consulta (Query)
+16
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Uma consulta pode coordenar, alterar e criar pra ticamente tudo em um banco de dados.
+\par At\'e9 mesmo pode criar um banco de dados.
+\par 
+\par Veja algum exemplos usando consultas:
+\par \plain\f3\fs20\cf1\ul\protect ##Insert##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##Select##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##Delete##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf1\ul\protect ##Join##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs32 Trabalhando com consultas\plain\f3\fs20 
+\par }
+4
+Insert
+0
+Query Insert
+Inserir
+TRUE
+Select
+0
+Query select
+Select
+TRUE
+Delete
+0
+Query Delete
+Delete
+TRUE
+Join
+0
+Query Join (Ansi)
+Join
+TRUE
+0
+Query Insert
+1
+5
+Query Insert
+Query Insert
+9
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Inserindo dados em uma uma tabela chamada tbUsuario:
+\par 
+\par \plain\f3\fs20\cf0\b insert into tbUsuario
+\par (nIDUsuario, nIDEmpresa, sNomeUsuario , nIDGrupo, sSenha, bExibir, nValidade )
+\par Values
+\par (1 , 1 ,"ROOT",  1, password("root"), "Y", -1)\plain\f3\fs20\cf0 
+\par }
+0
+0
+0
+Query select
+1
+6
+Query select
+Query select
+24
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Seleciona o c\'f3digo do grupo e o nome do usuario na tabela tbUsuario :
+\par 
+\par \plain\f3\fs20\cf0\b select
+\par     nIDGrupo,
+\par     sNomeUsuario
+\par from
+\par     tbUsuario
+\par where 
+\par     nIDUsuario =1\plain\f3\fs20\cf0 
+\par 
+\par 
+\par Seleciona os nomes dos usuarios na tabela tbUsuario que comecem com R :
+\par 
+\par \plain\f3\fs20\cf0\b select
+\par    sNomeUsuario
+\par from
+\par     tbUsuario
+\par where 
+\par     sNomeUsuario like 'R%'\plain\f3\fs20\cf0 
+\par 
+\par 
+\par }
+0
+0
+0
+Query Delete
+1
+7
+Query Delete
+Query Delete
+8
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Apaga da tabela tbUsuario o usuario que tenha o codigo igual a 2:
+\par 
+\par \plain\f3\fs20\cf0\b delete from tbUsuario
+\par where nIDUsuario = 2\plain\f3\fs20\cf0 
+\par 
+\par }
+0
+0
+0
+Query Join (Ansi)
+1
+8
+Query Join (Ansi)
+Query Join (Ansi)
+13
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Seleciona o nome do usuario e o nome do grupo do usuario executando uma uni\'e3o entre as tabelas tbUsuario e tbGrupo:
+\par 
+\par \plain\f3\fs20\cf0\b select
+\par     tbUsuario.sNomeUsuario,
+\par     tbGrupo.sNomeGrupo
+\par from
+\par     tbUsuario, tbGrupo
+\par where     nIDUsuario =1
+\par and         tbUsuario.nIDGrupo =  tbGrupo.nIDGrupo \plain\f3\fs20\cf0 
+\par 
+\par }
+0
+0
+0
+Foreing Key (Chave Estrangeira)
+1
+9
+Foreing Key (Chave Estrangeira)
+Foreing Key Chave Estrangeira
+62
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}{\f5\fmodern\fcharset1 Terminal;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Relacionamento entre as tabelas \'e9 um importante recurso de um servidor de banco de dados
+\par Ele evita que dados incorretos sejam inseridos ou fiquem perdidos.
+\par No mySQL esse recurso s\'f3 \'e9 aceito em tabelas do tipo \plain\f3\fs20\cf1\ul\protect ##InnoDB##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 . 
+\par 
+\par Vamos supor que n\'f3s temos os seguintes tabelas:
+\par 
+\par 
+\par Uma com uma lista de nomes de empresas:
+\par \plain\f3\fs20\cf0\b CREATE TABLE `tbempresa` (
+\par   `nIDEmpresa` int(2) NOT NULL auto_increment,
+\par   `sNomeEmpresa` varchar(40) default NULL,
+\par   PRIMARY KEY  (`nIDEmpresa`)
+\par ) TYPE=InnoDB; \plain\f3\fs20\cf0 
+\par 
+\par Uma com uma lista de nomes de grupos de usuarios:
+\par \plain\f3\fs20\cf0\b CREATE TABLE `tbgrupo` (
+\par   `nIDGrupo` int(2) NOT NULL auto_increment,
+\par   `nIDEmpresa` int(2) NOT NULL default '0',
+\par   `sNomeGrupo` varchar(16) NOT NULL default '',
+\par   PRIMARY KEY  (`nIDGrupo`,`nIDEmpresa`),
+\par   KEY `nIDEmpresa` (`nIDEmpresa`),
+\par   FOREIGN KEY (`nIDEmpresa`) REFERENCES `cadastro.tbempresa` (`nIDEmpresa`)
+\par ) TYPE=InnoDB; 
+\par \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf0\i Note que o campo tbGrupo.nIDEmpresa est\'e1 referenciado ao campo tbEmpresa.nIDEmpresa.\plain\f3\fs20\cf0 
+\par 
+\par Na tabela de Empresas temos os seguintes dados:
+\par \plain\f5\fs20\cf0 +------------+--------------+
+\par | nIDEmpresa | sNomeEmpresa |
+\par +------------+--------------+
+\par |          1 | Universal    |
+\par +------------+--------------+
+\par \plain\f3\fs20\cf0 
+\par E na tabela de Grupos temos os eguintes dados:
+\par \plain\f5\fs20\cf0\b +----------+------------+------------+
+\par | nIDGrupo | nIDEmpresa | sNomeGrupo |
+\par +----------+------------+------------+
+\par |        1 |          1 | ADMIN      |
+\par |        2 |          1 | TESTE      |
+\par |        3 |          1 | COMPRAS    |
+\par +----------+------------+------------+
+\par 
+\par \plain\f3\fs20\cf0 
+\par 
+\par Ent\'e3o se tentar-mos excluir a empresa 1, o servidor retornar\'e1 um erro porque a empresa 1 est\'e1 sendo usada na tabela tbGrupo.
+\par \plain\f3\fs20\cf0\b delete from tbEmpresa where nIDEmpresa = 1 \plain\f5\fs20\cf0\b 
+\par \plain\f3\fs20\cf0\b 
+\par [localhost] ERROR 1217: N\'e3o pode apagar uma linha pai: uma restri\'e7\'e3o de chave estrangeira falhou\plain\f5\fs20\cf0\b 
+\par 
+\par 
+\par \plain\f3\fs20\cf0 Da mesma forma, se tentarmos inserir na tabela tbGrupos uma empresa com codigo 2 tamb\'e9m retornara erro porque n\'e3o existe empresa com c\'f3digo 2.
+\par \plain\f3\fs20\cf0\b insert into tbGrupo
+\par (nIDGrupo, nIDEmpresa, sNomeGrupo)
+\par values
+\par (4, 2, 'Teste')
+\par \plain\f5\fs20\cf0 
+\par \plain\f3\fs20\cf0\b [localhost] ERROR 1216: N\'e3o pode acrescentar uma linha filha: uma restri\'e7\'e3o de chave estrangeira falhou
+\par 
+\par \plain\f3\fs20\cf0 Saiba como utilizar esse recurso no sitema entrando em \plain\f3\fs20\cf1\ul\protect ##Editor de Relacionamentos##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f5\fs20\cf0\b 
+\par }
+0
+2
+InnoDB
+0
+InnoDB
+InnoDB
+FALSE
+Editor de Relacionamentos
+0
+Editor de Relacionamentos
+Editor de Relacionamentos
+FALSE
+0
+mySQL
+2
+10
+mySQL
+mySQL
+8
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O mySQL\'ae \'e9 um banco de dados que foi projetado para acima de tudo, ser r\'e1pido.
+\par Atualmente ele possui a possibilidade de trabalhar com tabelas do tipo \plain\f3\fs20\cf1\ul\protect ##InnoDB##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 nos permitindo criar \plain\f3\fs20\cf1\ul\protect ##Foreing Key (Chave Estrangeira)##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 o que nos d\'e1 mais seguran\'e7a em gerenciamento de dados.
+\par 
+\par O mySQL \'e9 gratuito e roda em diversos sistemas operacionais.
+\par Pode ser encontrado em http://www.mysql.com .
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f2\fs32 Usando o mySQL\plain\f2\fs20 
+\par }
+2
+InnoDB
+0
+InnoDB
+InnoDB
+FALSE
+Foreing Key (Chave Estrangeira)
+0
+Foreing Key (Chave Estrangeira)
+Foreing Key (Chave Estrangeira)
+FALSE
+0
+InnoDB
+2
+11
+InnoDB
+InnoDB
+53
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\froman Times New Roman;}{\f4\fswiss\fcharset1 Arial;}{\f5\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20 O MySQL pode utilizar um recurso muito interessante pouco usado.
+\par S\'e3o as TRANSACTION! Ela nos permite desfazer uma opera\'e7\'e3o usando o comando ROLLBACK.
+\par 
+\par Veja como abilitar o acesso em seu servidor as tabelas do tipo 'InnoDB'.
+\par Essas tabelas s\'e3o do tipo 'transactions safe tables';
+\par 
+\par 1) Abra o 'my.ini' que se encontra no diret\'f3rio do seu Windows e na se\'e7\'e3o '[mysqld]' adicione as seguintes linhas:
+\par 
+\par innodb_data_home_dir=c:/mysql/innodb  innodb_log_group_home_dir=c:/mysql/innodb
+\par innodb_log_arch_dir=c:/mysql/innodb innodb_data_file_path = ibdata1:10M:autoextend innodb_flush_log_at_trx_commit=1 innodb_log_archive=0 set-variable=innodb_mirrored_log_groups=1 set-variable=innodb_log_files_in_group=3 set-variable=innodb_log_file_size=1M set-variable=innodb_log_buffer_size=1M set-variable=innodb_buffer_pool_size=16M set-variable=innodb_additional_mem_pool_size=2M set-variable=innodb_file_io_threads=4 set-variable=innodb_lock_wait_timeout=50
+\par 
+\par Exemplo completo do \plain\f3\fs20\cf1\ul\protect ##my.ini##\plain\f3\fs20\protect  \plain\f3\fs20 para Windows\'ae.
+\par Exemplo completo do \plain\f3\fs20\cf1\ul\protect ##my.cnf##\plain\f3\fs20\protect  \plain\f3\fs20 para Linux.
+\par 
+\par * Essas s\'e3o configura\'e7\'f5es minimalistas para ocupar pouco espa\'e7o em disco.
+\par 
+\par 2) O innodb n\'e3o cria pastas automaticamente, ent\'e3o crie a pasta:
+\par c:\\mysql\\innodb 
+\par 
+\par No linux a pasta normalmente deveria ser criada em:
+\par \plain\f4\fs20 /var/lib/mysql/ibdata
+\par Seta as permiss\'f5es corretas para que o mysqld tenha acesso a essa pasta.
+\par \plain\f3\fs20 
+\par 
+\par 3) Reinicie o servidor. 
+\par Ele ir\'e1 criar os arquivos de log e do Banco de dados. 
+\par 
+\par 4) Crie uma nova tabela do tipo innodb:
+\par 
+\par EX:
+\par \plain\f3\fs20\b CREATE TABLE `tabela` ( `codigo` int(11) NOT NULL auto_increment, `teste` varchar(100) NOT NULL default '', PRIMARY KEY (`codigo`) ) TYPE=InnoDB;  \tab \plain\f3\fs20 
+\par 
+\par ou
+\par 
+\par com o \plain\f3\fs20\cf1\ul\protect ##mySQL Control Center##\plain\f3\fs20\protect  \plain\f3\fs20  essa op\'e7\'e3o deve estar na aba "Table Properties".
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #innodb.bmp#\plain\f3\fs20\protect  \plain\f3\fs20 
+\par 
+\par 5) Agora basta testar! Tente os seguintes commandos:
+\par 
+\par EX:
+\par \plain\f3\fs20\b SET AUTOCOMMIT=0; 
+\par BEGIN;  
+\par insert into tabela (Codigo, teste) values (1,'teste');  
+\par ROLLBACK; \plain\f3\fs20 
+\par 
+\par Se o Rollback funcionou, nenhuma linha de inser\'e7\'e3o foi desfeita.
+\par Para que a transa\'e7\'e3o tenha efeito, basta mudar o \plain\f3\fs20\b 'ROLLBACK;'\plain\f3\fs20  para \plain\f3\fs20\b 'COMMIT;'\plain\f3\fs20  
+\par 
+\par Agora al\'e9m de transa\'e7\'f5es (Transactions), ser\'e1 possivel tamb\'e9m ser criadas \plain\f3\fs20\cf1\ul\protect ##Foreing Key (Chave Estrangeira)##\plain\f3\fs20\protect  \plain\f3\fs20  tornando o mySQL muito mais seguro em transa\'e7\'f5es.\plain\f4\fs20\cf0 
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f2\fs32 Configurando o mySQL\plain\f2\fs20 
+\par }
+4
+my.ini
+0
+My.ini
+my.ini
+FALSE
+my.cnf
+0
+my.cnf
+my.cnf
+FALSE
+mySQL Control Center
+0
+mySQL Control Center
+mySQL Control Center
+FALSE
+Foreing Key (Chave Estrangeira)
+0
+Foreing Key (Chave Estrangeira)
+Foreing Key (Chave Estrangeira)
+FALSE
+1
+innodb.bmp
+My.ini
+2
+12
+My.ini
+My.ini
+22
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 [mysqld]
+\par basedir=C:/MYSQL
+\par datadir=C:/MYSQL/data
+\par language=C:/MYSQL/share/portuguese
+\par innodb_data_file_path=ibdata:10M:autoextend
+\par innodb_data_home_dir=c:/mysql/innodb
+\par set-variable=innodb_mirrored_log_groups=1
+\par innodb_log_group_home_dir=c:/mysql/innodb
+\par set-variable=innodb_log_files_in_group=1
+\par set-variable=innodb_log_file_size=1M
+\par set-variable=innodb_log_buffer_size=8M
+\par innodb_flush_log_at_trx_commit=1
+\par innodb_log_arch_dir=c:/mysql/innodb
+\par innodb_log_archive=0
+\par set-variable=innodb_buffer_pool_size=80M
+\par set-variable=innodb_additional_mem_pool_size=10M
+\par set-variable=innodb_file_io_threads=4
+\par set-variable=innodb_lock_wait_timeout=50
+\par 
+\par }
+0
+0
+0
+my.cnf
+2
+13
+my.cnf
+my.cnf
+34
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20 [mysql.server]
+\par datadir=/var/lib/mysql
+\par socket=/var/lib/mysql/mysql.sock
+\par 
+\par [mysqladmin]
+\par socket=/var/lib/mysql/mysql.sock
+\par 
+\par [mysqld]
+\par datadir=/var/lib/mysql/data
+\par socket=/var/lib/mysql/mysql.sock
+\par 
+\par innodb_data_home_dir=/var/lib/mysql/ibdata
+\par innodb_log_group_home_dir=/var/lib/mysql/iblogs
+\par innodb_log_arch_dir=/var/lib/mysql/iblogs
+\par innodb_data_file_path=ibdata1:10M:autoextend
+\par innodb_flush_log_at_trx_commit=1
+\par innodb_log_archive=0
+\par set-variable=innodb_mirrored_log_groups=1
+\par set-variable=innodb_log_files_in_group=3
+\par set-variable=innodb_log_file_size=1M
+\par set-variable=innodb_log_buffer_size=1M
+\par set-variable=innodb_buffer_pool_size=16M
+\par set-variable=innodb_additional_mem_pool_size=2M
+\par set-variable=innodb_file_io_threads=4
+\par set-variable=innodb_lock_wait_timeout=50
+\par 
+\par 
+\par 
+\par [mysql]
+\par socket=/var/lib/mysql/mysql.sock
+\par 
+\par }
+0
+0
+0
+mySQL Control Center
+2
+14
+mySQL Control Center
+mySQL Control Center
+9
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O MySQL Control Center \'e9 uma ferramenta que ajuda gerenciar dados, tabelas, bancos de dados e usuarios no Banco de Dados MySQL.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #mysqlcc.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Costuma ser muito util para gerenciar os dados.
+\par Pode ser baixado gratuitamente do site http://www.mysql.com.
+\par }
+0
+0
+1
+mysqlcc.bmp
+DBDesigner
+2
+15
+DBDesigner
+DBDesigner
+12
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 DBDesigner \'e9 uma ferramenta para modelagem de um banco dados.
+\par Possui uma boa compatibilidade com mySQL e \'e9 gratuito.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #dbdesigner.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par O DBDesigner pode facilmente ser encontrado no site http://www.fabforce.net.
+\par 
+\par 
+\par 
+\par }
+0
+0
+1
+dbdesigner.bmp
+Interbase
+3
+16
+Interbase
+Interbase
+9
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O Interbase\'ae \'e9 um poderoso banco de dados relacional criado pela Borland.
+\par 
+\par Possui todos os recursos exigidos por um banco de dados relacional.
+\par Atualmente esta disponivel para as plataformas MS Windows\'ae, Solaris e Linux.
+\par 
+\par Voc\'ea pode obter informa\'e7\'f5es mais completas em http://www.borland.com/interbase/ .
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f2\fs32 Usando Interbase\plain\f2\fs20 
+\par }
+0
+0
+Firebird
+3
+17
+Firebird
+Firebird
+8
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Firebird\'ae apesar apesar de ser um banco de dados gratuito ele apresenta exelentes recursos e uma otima compatibilidade com com banco de dados \plain\f3\fs20\cf1\ul\protect ##Interbase##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par 
+\par Se tornando ent\'e3o uma excelente sa\'edda para empresas em expans\'e3o.
+\par 
+\par Voc\'ea pode saber mais sobre o Firebird em http://firebird.sourceforge.net .
+\par }
+4
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f2\fs32 Usando Firebird\plain\f2\fs20 
+\par }
+1
+Interbase
+0
+Interbase
+Interbase
+FALSE
+0
+Generators e Triggers
+3
+18
+Generators e Triggers
+Generators e Triggers
+23
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}{\f5\fswiss Arial;}{\f6\fmodern Courier;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Diferente de outros servidores de bancos de dados, o Interbase\'ae n\'e3o possui um campo auto-increment (sequenciador automatico). Mas ele possui um recurso bem flexivel chamado Generator.
+\par 
+\par Os Generators nos devolve qual o pr\'f3ximo valor a ser utilizado
+\par 
+\par 
+\par Exemplo de como criar um Generator para o Interbase\'ae:
+\par 
+\par \plain\f5\fs20\cf0\b CREATE GENERATOR EMPNO_GEN; \plain\f5\fs20\cf0 
+\par \plain\f5\fs20\cf0\b COMMIT; \plain\f5\fs20\cf0 
+\par 
+\par \plain\f3\fs20\cf0 Para que um campo de uma tabela uma tabela trabalhe de acordo com o auto-increment eh nescess\'e1rio criar um Trigger(Gatilho) para que o valor automatico seja adicionado ao campo desejado
+\par \plain\f5\fs20\cf0 
+\par \plain\f3\fs20\cf0 Exemplo de como criar uma Trigger para o Interbase\'ae:
+\par 
+\par \plain\f5\fs20\cf0\b CREATE TRIGGER CREATE_EMPNO FOR EMPLOYEES 
+\par BEFORE INSERT POSITION 0 AS 
+\par BEGIN 
+\par    NEW.EMPNO = GEN_ID(EMPNO_GEN, 1); 
+\par END \plain\f6\fs24\b 
+\par \plain\f3\fs20\cf0 
+\par }
+0
+0
+0
+Stored Procedures
+3
+19
+Stored Procedures
+Stored Procedures
+29
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}{\f5\froman Times New Roman;}{\f6\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 Stored Procedures (Procedimentos Armazenados) permite executar diversas consultas de uma s\'f3 vez enviando somente um comando.
+\par 
+\par Veja um exemplo simples de Stored Procedure do Interbase\'ae:
+\par 
+\par \plain\f6\fs20\cf0\b CREATE PROCEDURE GET_EMP_PROJ (
+\par       EMP_NO SMALLINT
+\par ) 
+\par 
+\par RETURNS (
+\par          PROJ_ID VARCHAR(20)
+\par  ) AS 
+\par 
+\par BEGIN 
+\par    FOR 
+\par      SELECT 
+\par         PROJ_ID 
+\par      FROM 
+\par         EMPLOYEE_PROJECT 
+\par      WHERE 
+\par          EMP_NO = :emp_no 
+\par       INTO 
+\par          :proj_id 
+\par    DO 
+\par      SUSPEND; 
+\par END!! \plain\f5\fs24\b 
+\par \plain\f3\fs20\cf0 
+\par }
+0
+0
+0
+View
+3
+22
+View
+View
+24
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}{\f5\froman Times New Roman;}{\f6\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 View nos permite visualisar um conjunto de dados de uma ou mais tabelas de forma transparente;
+\par 
+\par Exemplo de como criar uma View no Interbase\'ae:
+\par 
+\par \plain\f6\fs20\cf0\b CREATE VIEW SNOW_LINE (
+\par                CITY, 
+\par                STATE, 
+\par                SNOW_ALTITUDE
+\par ) AS 
+\par 
+\par SELECT 
+\par    CITY, 
+\par    STATE, 
+\par    ALTITUDE 
+\par 
+\par FROM 
+\par   CITIES 
+\par 
+\par WHERE 
+\par   ALTITUDE > 5000; \plain\f5\fs24 
+\par \plain\f3\fs20\cf0 
+\par }
+0
+0
+0
+ERWIN
+3
+20
+ERWIN
+ERWIN
+11
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 ERWIN \'ae  Da Computer Associates \'e9 a mais completa ferramenta de modelagem de dados existente.
+\par Ele \'e9 compativel com diversos bancos de Dados como Oracle\'ae, MS SQL Server\'ae, Informix\'ae e outros.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #ERWIN.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Voc\'ea pode obter mais informa\'e7\'f5es sobre esse produto em http://www.ca.com .
+\par 
+\par 
+\par }
+0
+0
+1
+ERWIN.bmp
+IBExpert
+3
+21
+IBExpert
+IBExpert
+8
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O IBExpert\'ae eh uma das melhores ferramentas para gerenciamento de dados do Interbase existentes no mercado.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #IBExpert.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Para obter mais informa\'e7\'f5es sobre o IBExpert entre no site http://www.ibexpert.com/ .
+\par }
+0
+0
+1
+IBExpert.bmp
+Editor de Relacionamentos
+4
+23
+Editor de Relacionamentos
+Editor de Relacionamentos
+89
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O primeiro passo antes de se criar um formulario devemos selecionar em quais tabelas se pretende armazenar os dados.
+\par 
+\par Quando os dados a serem preenchidos pertencem a mais de uma tabela, \'e9 obrigatorio que seja apontado qual campo conecta uma tabela a outra.
+\par 
+\par Veja esse exemplo.
+\par 
+\par Quando pretendemos criar um cadastro de clientes no qual, cada cliente pode ou n\'e3o ter um determinado numero de dependentes.
+\par A quantidade de dependentes vai variar muito de pessoa para pessoa.
+\par 
+\par Nesse caso, n\'f3s temos que criar duas tabelas. A tabela tbCliente e a tabela tbDependente.
+\par Na tabela de Clientes colocaremos todos os dados do Cliente como Endereco, Telefone, etc.
+\par 
+\par Exemplo de campos da tabela Cliente:
+\par 
+\par \plain\f3\fs20\cf0\b CREATE TABLE tbCliente (
+\par   nCodCliente INTEGER(11) NOT NULL AUTO_INCREMENT,
+\par   nIDEmpresa INTEGER(2) NOT NULL,
+\par   nIDUF INTEGER(2) NOT NULL,
+\par   nIDPais INTEGER(2) NOT NULL,
+\par   sNomeCliente VARCHAR(70) NOT NULL,
+\par   sApelido VARCHAR(20) NULL,
+\par   sEndereco VARCHAR(90) NULL DEFAULT 'Novo Endereco',
+\par   sBairro VARCHAR(30) NULL DEFAULT 'Novo Bairro',
+\par   sCidade VARCHAR(30) NULL DEFAULT 'Nova Cidade',
+\par   sEMail VARCHAR(50) NULL,
+\par   sTelefone VARCHAR(19) NOT NULL,
+\par   sTelefoneComercial VARCHAR(19) NOT NULL,
+\par   sCEP VARCHAR(9) NOT NULL,
+\par   dNascimento DATETIME NULL,
+\par   nCor INTEGER(2) NULL,
+\par   bFumante ENUM("N","S") NULL DEFAULT 'N',
+\par   bCasal ENUM("N","S") NULL DEFAULT 'Y',
+\par   sHistorico TEXT NULL,
+\par   PRIMARY KEY(nCodCliente, nIDEmpresa),
+\par   INDEX(nIDPais), 
+\par   FOREIGN KEY(nIDPais)
+\par     REFERENCES tbPais(nIDPais)
+\par       ON DELETE RESTRICT
+\par       ON UPDATE RESTRICT,
+\par   INDEX(nIDUF), 
+\par   FOREIGN KEY(nIDUF)
+\par     REFERENCES tbUF(nIDUF)
+\par       ON DELETE RESTRICT
+\par       ON UPDATE RESTRICT,
+\par   INDEX(nIDEmpresa), 
+\par   FOREIGN KEY(nIDEmpresa)
+\par     REFERENCES tbEmpresa(nIDEmpresa)
+\par       ON DELETE RESTRICT
+\par       ON UPDATE RESTRICT
+\par )
+\par TYPE=InnoDB;\plain\f3\fs20\cf0 
+\par 
+\par \plain\f3\fs20\cf0\i Note que os Campos nIDPais, nIDUF e nIDEmpresa (Corporate Edition) pertencem a tabelas externas usando Chave Estrangeira ou Foreing Key.
+\par 
+\par Note tamb\'e9m que o campo nCodCliente \'e9 o campo responsavel pela localiza\'e7\'e3o do dado.
+\par Como ele \'e9 do tipo AUTO_INCREMENT nunca ter\'e1 uma campo repetido igual.\plain\f3\fs20\cf0  
+\par 
+\par Na Tabela de Dependentes precisamos somente armazenar alguns dados b\'e1sicos.
+\par 
+\par \plain\f3\fs20\cf0\b CREATE TABLE tbDependente (
+\par   nCodDependente INTEGER(3) NOT NULL AUTO_INCREMENT,
+\par   nIDEmpresa INTEGER(2) NOT NULL,
+\par   nCodCliente INTEGER(11) NOT NULL,
+\par   sNomeDependente VARCHAR(70) NOT NULL,
+\par   dNascimento DATE NULL,
+\par   PRIMARY KEY(nCodDependente, nIDEmpresa, nCodCliente),
+\par   INDEX(nCodCliente, nIDEmpresa), 
+\par   FOREIGN KEY(nCodCliente, nIDEmpresa)
+\par     REFERENCES tbCliente(nCodCliente, nIDEmpresa)
+\par       ON DELETE RESTRICT
+\par       ON DELETE RESTRICT
+\par )
+\par TYPE=InnoDB;
+\par \plain\f3\fs20\cf0\i 
+\par Note que os campos nCodCliente e nIDEmpresa est\'e3o ligados a tabela de Clientes.
+\par 
+\par \plain\f3\fs20\cf0 Com as tabelas criadas voc\'ea precisa adiciona-las no editor de relacionamentos e apontar qual o Campo Chave desse modulo.
+\par \plain\f3\fs20\cf0\i 
+\par \plain\f3\fs20\cf1\ul\protect #relation.BMP#\plain\f3\fs20\cf0\i\protect  \plain\f3\fs20\cf0\i 
+\par 
+\par 1)Para criar esse relacionamento clique no campo nCodCliente da tabela tbCliente para seleciona-lo.
+\par 2)V\'e1 at\'e9 a tabela tbDependente e clique no campo nCodCliente.
+\par 3)Arraste o campo nCodCliente da tbDependente at\'e9 a tabela tbCliente (Drag and Drop).
+\par 
+\par \plain\f3\fs20\cf0 Os dados da tabela filha (tbDependente) deve ser salvos salvo em um \plain\f3\fs20\cf1\ul\protect ##Grid##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f3\fs20\cf0\i 
+\par \plain\f3\fs20\cf0 Agora basta selecionar o campo Chave e a consulta para gerar um novo codigo no \plain\f3\fs20\cf1\ul\protect ##Editor de Chave##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f3\fs20\cf0\i 
+\par }
+0
+2
+Editor de Chave
+0
+Editor Chave
+Editor de Chave
+FALSE
+Grid
+0
+Grid
+Grid
+FALSE
+1
+relation.BMP
+Editor Chave
+4
+25
+Editor Chave
+Editor Chave
+14
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 O Editor de chave \'e9 o \'faltimo passo antes de se gerar o formulario.
+\par Nele voc\'ea deve preencher todos os requisitos pedidos.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #ChaveEditor.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par O primeiro item \'e9 o nome que ele vai ter no menu.
+\par Tabela chave indica qual a tabela chave ou tabela pai.
+\par 
+\par Se for levado em conta as tabelas tbCliente e tbDependente no topico \plain\f3\fs20\cf1\ul\protect ##Editor de Relacionamentos##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 , a tabela pai seria a tabela tbCliente, pois \'e9 dela que vir\'e1 o campo chave nCodCliente para a tabela tbDependente.
+\par 
+\par \plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Editor de Relacionamentos
+0
+Editor de Relacionamentos
+Editor de Relacionamentos
+FALSE
+1
+ChaveEditor.bmp
+Editor de Formularios
+4
+26
+Editor de Formularios
+Editor de Formularios
+44
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 A tela de edi\'e7\'e3o funciona de forma simples.
+\par 
+\par Aqui voc\'ea precisa adicionar o componente certo para cada campo a ser preenchido.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #FormEditor.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Para isso voc\'ea precisa clicar em um componente na barra de componentes e clicar no formul\'e1rio.
+\par O Componente ir\'e1 ser inserido no formulario automaticamente.
+\par 
+\par Podemos separar os componentes em 4 niveis de complexidade:
+\par 
+\par O primeir grupo possui os componentes de f\'e1cil configura\'e7\'e3o:
+\par \plain\f3\fs20\cf1\ul\protect ##TextEdit##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  para preenchimento de textos.
+\par \plain\f3\fs20\cf1\ul\protect ##IntegerEdit##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  para preenchimentos de numeros inteiros.
+\par \plain\f3\fs20\cf1\ul\protect ##FloatEdit##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 para preenchimento de numeros com casa decimais.
+\par 
+\par O segundo grupo tamb\'e9m \'e9 falcil de se configurar por\'e9m ele possui recursos que facilitam o preenchimento pelo usuario.
+\par \plain\f3\fs20\cf1\ul\protect ##CalcEdit##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  \'e9 um FloatEdit com uma calculadora embutida.
+\par \plain\f3\fs20\cf1\ul\protect ##DatePicker##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  para preenchimento de datas, ele possui um calend\'e1rio embutido.
+\par \plain\f3\fs20\cf1\ul\protect ##CheckBox##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  serve para preenchimentos de campos que devem ser setados como verdadeiro ou falso.
+\par 
+\par O Terceiro grupo j\'e1 pede um conhecimento um pouco mais avan\'e7ado.
+\par \'c9 preciso conhecer um pouco sobre SQL do banco de dados utilizado para que ele funcione.
+\par \plain\f3\fs20\cf1\ul\protect ##DBLabel##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  se auto-preenche com um texto vindo de uma consulta que atualizado quando o valor de um outro componente \'e9 alterado.
+\par \plain\f3\fs20\cf1\ul\protect ##ComboBox##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  \'e9 uma caixa de sele\'e7\'e3o quando se quer selecionar um item de uma lista. A lista \'e9 obtida atrav\'e9s de uma consulta.
+\par \plain\f3\fs20\cf1\ul\protect ##btnQueryEdit##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0   \'e9 util para obter-mos um ou mais dados de uma tabela para preencher-mos um ou mais componentes em meio a um grande volume de dados.
+\par 
+\par 
+\par 
+\par E no \'faltimo grupo temos o grid.
+\par \plain\f3\fs20\cf1\ul\protect ##Grid##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  deve ser adicionado quando \'e9 nescess\'e1rio o preenchermos dos dados de tabelas filhas.
+\par 
+\par Em cada componente devemos setar suas propriedades para que o formul\'e1rio funcione corretamente.
+\par Para isso, basta clicar com o bot\'e3o direito sobre o componente e clicar em propriedades.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #propriedades.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par 
+\par 
+\par 
+\par \plain\f3\fs20\cf0\i 
+\par }
+0
+10
+TextEdit
+0
+TextEdit
+TextEdit
+FALSE
+IntegerEdit
+0
+IntegerEdit
+IntegerEdit
+FALSE
+FloatEdit
+0
+FloatEdit
+FloatEdit
+FALSE
+CalcEdit
+0
+CalcEdit
+CalcEdit
+FALSE
+DatePicker
+0
+DatePicker
+DatePicker
+FALSE
+CheckBox
+0
+CheckBox
+CheckBox
+FALSE
+DBLabel
+0
+DBLabel
+DBLabel
+FALSE
+ComboBox
+0
+ComboBox
+ComboBox
+FALSE
+btnQueryEdit
+0
+btnQueryEdit
+btnQueryEdit
+FALSE
+Grid
+0
+Grid
+Grid
+FALSE
+2
+FormEditor.bmp
+propriedades.bmp
+TextEdit
+4
+27
+TextEdit
+TextEdit
+7
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #numedit1.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  O TextEdit \'e9 uma caixa de preenchimento simples de texto.
+\par Use esse componente para preenchimento de dados como Nomes, Endere\'e7os, Bairros, etc.
+\par 
+\par Esse componetne pertence ao grupo que possui \plain\f3\fs20\cf1\ul\protect ##Propriedades Simples##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Propriedades Simples
+0
+Propriedades Simples
+Propriedades Simples
+FALSE
+1
+numedit1.BMP
+IntegerEdit
+4
+28
+IntegerEdit
+IntegerEdit
+7
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #numedit2.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  IntegerEdit \'e9 util para preenchimento de dados que obrigatoriamente precisam ser um numero inteiro.
+\par Use esse componente em campos como n\'famero de uma casa, quantidade de um produto, c\'f3digo, etc.
+\par 
+\par Esse componetne pertence ao grupo que possui \plain\f3\fs20\cf1\ul\protect ##Propriedades Simples##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par }
+0
+1
+Propriedades Simples
+0
+Propriedades Simples
+Propriedades Simples
+FALSE
+1
+numedit2.BMP
+FloatEdit
+4
+29
+FloatEdit
+FloatEdit
+7
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #numedit3.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  FloatEdit \'e9 um componente que permite o preenchimento de n\'fameros podem ou n\'e3o possuir casas decimais.
+\par Ele usado em preenchimento de campos como peso, valor, altura, etc.\plain\f3\fs20\cf0\i 
+\par 
+\par \plain\f3\fs20\cf0 Esse componetne pertence ao grupo que possui \plain\f3\fs20\cf1\ul\protect ##Propriedades Simples##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 . \plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Propriedades Simples
+0
+Propriedades Simples
+Propriedades Simples
+FALSE
+1
+numedit3.BMP
+CalcEdit
+4
+30
+CalcEdit
+CalcEdit
+10
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #calc.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 CalcEdit \'e9 um componente similar ao FloatEdit com a vantagem de possuir uma calculadora embutida.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #calc2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Esse componente \'e9 focado em campos que exigem calculos feitos pelo usuario como taxa de imposto.\plain\f3\fs20\cf0\i 
+\par 
+\par \plain\f3\fs20\cf0 Esse componetne pertence ao grupo que possui \plain\f3\fs20\cf1\ul\protect ##Propriedades Simples##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Propriedades Simples
+0
+Propriedades Simples
+Propriedades Simples
+FALSE
+2
+calc.BMP
+calc2.bmp
+DatePicker
+4
+31
+DatePicker
+DatePicker
+10
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #datepicker.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  Datepicker \'e9 um componente que vem com um calendario embutido.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #datepicker2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Ele \'e9 usado em tudo aquilo relacionado a datas como prazos, vencimentos, data de valisdades etc.\plain\f3\fs20\cf0\i 
+\par 
+\par \plain\f3\fs20\cf0 Esse componetne pertence ao grupo que possui \plain\f3\fs20\cf1\ul\protect ##Propriedades Simples##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .\plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Propriedades Simples
+0
+Propriedades Simples
+Propriedades Simples
+FALSE
+2
+datepicker.bmp
+datepicker2.bmp
+CheckBox
+4
+32
+CheckBox
+CheckBox
+14
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #checkbox.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  CheckBox \'e9 um componente relativamente simples de ser configurado.
+\par 
+\par Esse componente \'e9 usado em campos como Pago, Vencido, Cancelado, etc.
+\par \'c9 preciso selecionar a Tabela e o Campo que o componente ir\'e1 salvar os dados,  o nome do componente e o Titulo.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #combobox2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Apesar de simples, \'e9 um componente de muita utilidade e muito r\'e1pido.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #combobox3.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf0\i 
+\par }
+0
+0
+3
+checkbox.bmp
+combobox2.bmp
+combobox3.bmp
+DBLabel
+4
+33
+DBLabel
+DBLabel
+33
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #dblabel.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  DBLabel em um componente \'fatil para exibir um determinado coment\'e1rio de um componente que esteja exibindo um c\'f3digo.
+\par 
+\par \'c9 preciso prencher a consulta SQL que ser\'e1 disparada quando o componente selecionado for alterado pelo usu\'e1rio.
+\par Por exemplo:
+\par \plain\f3\fs20\cf0\b select 
+\par 
+\par    sNomeProduto 
+\par 
+\par from  tbProduto
+\par 
+\par where 
+\par 
+\par    nIDProduto = :sCampoBusca
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #dblabel2.bmp#\plain\f3\fs20\cf0\b\protect  \plain\f3\fs20\cf0\b 
+\par 
+\par 
+\par \plain\f3\fs20\cf0 Nesse exemplo selecionamos o nome do produto que tenha o c\'f3digo igual a :sCampoBusca.
+\par :sCampoBusca \'e9 o c\'f3digo que ser\'e1 obtido do componente btnqProduto.
+\par 
+\par Ent\'e3o quando o componente btnqProduto for alterado, a busca ser\'e1 disparada e o dbLabel ser\'e1 preenchido com o nome do produto (sNomeProduto) que tenha o c\'f3digo iqual a btnqProduto.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #dblabel3.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par 
+\par 
+\par \plain\f3\fs20\cf0\i 
+\par 
+\par 
+\par \plain\f3\fs20\cf0 
+\par }
+0
+0
+3
+dblabel.bmp
+dblabel2.bmp
+dblabel3.bmp
+ComboBox
+4
+34
+ComboBox
+ComboBox
+21
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #combobox.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  ComboBox \'e9 um componente usado para ser que o usuario possa selecionar um dos items da lista.
+\par Ele normalmente \'e9 usado em Campos que tenha Estado, Pa\'eds, etc.
+\par 
+\par Essa lista \'e9 obtida trav\'e9s de uma consulta SQL que \'e9 executada ao iniciar o formulario.
+\par O combobox precisa de dois campos para que ele funcione corretamente.
+\par 
+\par O primeiro campo \'e9 o c\'f3digo do item e o segundo \'e9 a descri\'e7\'e3o.
+\par Exemplo:
+\par \plain\f3\fs20\cf0\b select nIdUF, sNomeUF from tbUF
+\par \plain\f3\fs20\cf0 
+\par Nesse exemplo a lista ser\'e1 preenchida com o nome do estado e na tabela pai ser\'e1 gravado o c\'f3digo da UF.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #combobox2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Assim como os componentes de propriedades simples, \'e9 preciso selecionar a Tabela e o Campo onde o c\'f3digo obtido ser\'e1 gravado, o Nome e o T\'edtulo para identifica\'e7\'e3o.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #combobox3.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par \plain\f3\fs20\cf0\i 
+\par }
+0
+0
+3
+combobox.bmp
+combobox2.bmp
+combobox3.bmp
+btnQueryEdit
+4
+35
+btnQueryEdit
+btnQueryEdit
+74
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #btnqedit.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  btnQueryEdit \'e9 um dos componentes mais complexos mais de extrema utilidade.
+\par 
+\par Quando a lista de items for muito grande, e queremos obter somente um dado especifico, usamos esse componente. Ele tem um bot\'e3o embutido que quando clicado, aparece uma caixa de dialogo para que o usuario fa\'e7a uma busca. e o item selecionado preenche um ou mais componentes do formul\'e1rio.
+\par 
+\par Como os outros componentes, \'e9 nescess\'e1rio que voc\'ea selecione a tabela e o campo onde ser\'e1 salvo os dados, o nome do componente e o t\'edtulo.
+\par 
+\par Ent\'e3o preencheremos as consultas:
+\par \plain\f3\fs20\cf0\b CEP:select sIDCep, sEndereco, sBairro, sCidade from tbCep where sIDCep = :Campo_Busca
+\par 
+\par Endereco:select sIDCep, sEndereco, sBairro, sCidade from tbCep where sEndereco like :Campo_Busca\plain\f3\fs20\cf0 
+\par 
+\par \plain\f3\fs20\cf0\i Note que no come\'e7o das consultas possui os t\'edtulos das consultas CEP e Endereco separada por dois pontos ":".
+\par \plain\f3\fs20\cf0 Esses titulos ser\'e3o colocados em um combo de uma tela de dialogo que aparecer\'e1 quando o usuario clicar no bot\'e3o de busca.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Na primeira consulta ser\'e1 selecionado os campos sIDCep, sEndereco, sBairro, sCidade que sIDCep seja igual a :CampoBusca.
+\par Na segunda ser\'e1 selecionado os mesmos campos mas com a condicao que ser\'e1 localizada pelo endere\'e7o.
+\par 
+\par :CampoBusca \'e9 um valor que o usuario ir\'e1 preencher para localizar os dados.
+\par 
+\par Por exemplo:
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit3.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Nesse caso a busca pelo CEP que tinha como :CampoBusca o valor "04689150".
+\par E por fim devemos preencher a lista de componentes.
+\par 
+\par Essa lista \'e9 onde ser\'e1 preenchido com dados localizados pela consulta do usuario.
+\par Sendo que os componentes devem estar na ordem dos campos.
+\par 
+\par Exemplo:
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit4.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Nesse exemplo acima os seguintes campos preencher\'e1 os seguintes componentes:
+\par 
+\par Campo\tab \tab \tab Componente
+\par 
+\par sIDCep\tab \tab ->\tab btnqCEP 
+\par sEndereco\tab ->\tab edtEndereco
+\par sBairro\tab \tab ->\tab edtBairro
+\par sCidade\tab \tab ->\tab edtCidade
+\par 
+\par Veja o resultado:
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit5.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Mas n\'e3o \'e9 nescess\'e1rio que todos os campos sejam direcionados para um componente como nesse outro exemplo:
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit6.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Aqui iremos preencher somente o pr\'f3prio btnqProduto.
+\par \plain\f3\fs20\cf1\ul\protect #btnqedit7.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Por\'e9m um \plain\f3\fs20\cf1\ul\protect ##DBLabel##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  tinha sido adicionado para ser auto preenchido assim que o valor do btnqProduto for alterado.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \plain\f3\fs20\cf0\i 
+\par 
+\par 
+\par 
+\par }
+0
+1
+DBLabel
+0
+DBLabel
+DBLabel
+FALSE
+7
+btnqedit.bmp
+btnqedit2.bmp
+btnqedit3.bmp
+btnqedit4.bmp
+btnqedit5.bmp
+btnqedit6.bmp
+btnqedit7.bmp
+Grid
+4
+36
+Grid
+Grid
+20
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf1\ul\protect #dbgrid.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0  Grid deve ser adicionado quando \'e9 nescess\'e1rio o preenchermos dos dados de tabelas filhas.
+\par 
+\par Primeiro deve-se dar um nome ao componente.
+\par Em seguida, deve-se selecionar qual tabela filha o Grid gravar\'e1 os dados. Ent\'e3o clique em OK.
+\par Assim que isso for feito, os campos da tabela ir\'e1 aparecer.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #dbgrid2.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Em cada campo podemos sertar o t\'edtulo, a \plain\f3\fs20\cf1\ul\protect ##mascara##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 , se o campo \'e9 vis\'edvel para o usu\'e1rio e no final se ele \'e9 auto-sequencial.
+\par O item auto-sequencial s\'f3 deve ser em campos da pr\'f3pria tabela filha.
+\par 
+\par N\'e3o \'e9 nescess\'e1rio alterar nada no campo de liga\'e7\'e3o com a tabela pai, visto q isso j\'e1 foi ligado no \plain\f3\fs20\cf1\ul\protect ##Editor de Relacionamentos##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 .
+\par Mas \'e9 recomendado deixa-lo invisivel. Assim como o campo relacionado ao c\'f3digo da empresa (Corporate Editon).
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #dbgrid3.BMP#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par \plain\f3\fs20\cf0\i 
+\par }
+0
+2
+mascara
+0
+Mask (Mascara)
+mascara
+FALSE
+Editor de Relacionamentos
+0
+Editor de Relacionamentos
+Editor de Relacionamentos
+FALSE
+3
+dbgrid.bmp
+dbgrid2.BMP
+dbgrid3.BMP
+Propriedades Simples
+4
+37
+Propriedades Simples
+Propriedades Simples
+26
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fcharset1 Arial;}{\f4\fswiss\fprq2 System;}}
+{\colortbl\red0\green0\blue0;\red0\green128\blue0;}
+\deflang1046\pard\plain\f3\fs20\cf0 A tela de de propriedades simples muito f\'e1cil de ser configurada.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect #propriedadessimples.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Em primeiro lugar, deve-se selecionar qual tabela aquele campo pertence e logo em seguida o campo.
+\par 
+\par Depois \'e9 nescess\'e1rio que se de um nome a esse componente. Pode ser qualquer nome, mas coloque um nome que fique f\'e1cil de lembrar a que campo ele pertence.
+\par 
+\par Ent\'e3o selecione o Titulo de indentifica\'e7\'e3o para o usu\'e1rio. Esse titulo \'e9 o que ficar\'e1 escrito no texto acima do componente.
+\par 
+\par \plain\f3\fs20\cf1\ul\protect ##Mascara##\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 n\'e3o \'e9 um campo obrigat\'f3rio de ser preenchido, mais pode ser util para se colocar um formado padr\'e3o para entrada de dados.
+\par 
+\par Por fim, temos tres items para serem ou n\'e3o checados.
+\par 
+\par O primeiro indica se pode ser inserido dados em branco (campo obrigat\'f3rio).
+\par Caso o campo obrigat\'f3rio n\'e3o esteja preenchido, o componente fica em vermelho.
+\par \plain\f3\fs20\cf1\ul\protect #campoobrigatorio.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par Mudando de cor assim que preenchido.
+\par \plain\f3\fs20\cf1\ul\protect #campoobrigatorio2.bmp#\plain\f3\fs20\cf0\protect  \plain\f3\fs20\cf0 
+\par 
+\par O segundo indica se o usuario pode entrar com dados ou o componente \'e9 somente para leitura.
+\par O ultimo indica se o T\'edtulo do componente deve ou n\'e3o aparecer.\plain\f3\fs20\cf0\i 
+\par }
+0
+1
+Mascara
+0
+Mask (Mascara)
+Mascara
+FALSE
+3
+propriedadessimples.bmp
+campoobrigatorio.bmp
+campoobrigatorio2.bmp
+Mask (Mascara)
+4
+38
+Mask (Mascara)
+Mask (Mascara)
+9
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset1 Arial;}{\f3\fswiss\fprq2 System;}{\f4\fswiss\fcharset1 Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1046\pard\plain\f4\fs20\cf0 Mascara \'e9 um recurso que permite formatar os dados digitados pelo usuario.
+\par Veja alguns exemplos comuns de m\'e1scara:
+\par 
+\par Data:\tab \tab 99/99/99;1
+\par Telefone:\tab (99)9999-9999;1
+\par \plain\f4\fs20\cf0\i 
+\par }
+0
+0
+0
